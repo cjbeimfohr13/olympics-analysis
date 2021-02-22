@@ -1,0 +1,1036 @@
+id,year,sport,sex,nationality,medal,name
+0,1976,Aquatics,male,USA,Gold, Philip George Boggs
+1,1976,Aquatics,female,USA,Gold, Jennifer Kay Chandler
+2,1976,Aquatics,female,USA,Gold, Shirley Farber Babashoff
+3,1976,Aquatics,male,USA,Gold, Brian Stuart Goodell
+4,1976,Aquatics,male,USA,Gold, Matthew Haynes Vogel
+5,1976,Aquatics,male,USA,Gold, John Phillips Naber
+6,1976,Aquatics,male,USA,Gold, John Phillips Naber
+7,1976,Aquatics,male,USA,Gold, James Paul Montgomery
+8,1976,Aquatics,female,USA,Gold, Kim Marie Peyton
+9,1976,Aquatics,male,USA,Gold, James Paul Montgomery
+10,1976,Aquatics,male,USA,Gold, Michael Lee Bruner
+11,1976,Aquatics,male,USA,Gold, John Phillips Naber
+12,1976,Aquatics,male,USA,Gold, Matthew Haynes Vogel
+13,1976,Aquatics,male,USA,Gold, Bruce Macfarlane Furniss
+14,1976,Aquatics,male,USA,Gold, Rodney Strachan
+15,1976,Aquatics,male,USA,Gold, Brian Stuart Goodell
+16,1976,Aquatics,male,USA,Gold, James Paul Montgomery
+17,1976,Aquatics,female,USA,Gold, Wendy Lansbach Boglioli
+18,1976,Aquatics,male,USA,Gold, Michael Lee Bruner
+19,1976,Aquatics,male,USA,Gold, John Phillips Naber
+20,1976,Aquatics,female,USA,Gold, Gillian Ann Sterkel
+21,1976,Aquatics,male,USA,Gold, John Frederick Hencken
+22,1976,Aquatics,male,USA,Gold, John Frederick Hencken
+23,1976,Aquatics,male,USA,Gold, Bruce Macfarlane Furniss
+24,1976,Archery,female,USA,Gold, Luann Marie Ryon
+25,1976,Archery,male,USA,Gold, Darrell Owen Pace
+26,1976,Athletics,male,USA,Gold, Arnie Robinson
+27,1976,Athletics,male,USA,Gold, Herman Ronald Frazier
+28,1976,Athletics,male,USA,Gold, Steven Earl Riddick
+29,1976,Athletics,male,USA,Gold, Maxwell Lander Parks
+30,1976,Athletics,male,USA,Gold, Edwin Moses
+31,1976,Athletics,male,USA,Gold, William Bruce Jenner
+32,1976,Athletics,male,USA,Gold, Millard Frank Jr. Hampton
+33,1976,Athletics,male,USA,Gold, Frederick Vaughn Newhouse
+34,1976,Athletics,male,USA,Gold, Harvey Edward Glance
+35,1976,Athletics,male,USA,Gold, Benjamin Gene Brown
+36,1976,Athletics,male,USA,Gold, Malcolm Maurice Wilkins
+37,1976,Athletics,male,USA,Gold, John Wesley Jones
+38,1976,Basketball,male,USA,Gold, Scott Glenn May
+39,1976,Basketball,male,USA,Gold, Mitchell Kupchak
+40,1976,Basketball,male,USA,Gold, Adrian Delano Dantley
+41,1976,Basketball,male,USA,Gold, Steven Sheppard
+42,1976,Basketball,male,USA,Gold," Philip Jackson, Jr. Ford"
+43,1976,Basketball,male,USA,Gold, Kenneth Alan Carr
+44,1976,Basketball,male,USA,Gold, Walter Paul Davis
+45,1976,Basketball,male,USA,Gold, Ernest Grunfeld
+46,1976,Basketball,male,USA,Gold, Thomas Joseph Lagarde
+47,1976,Basketball,male,USA,Gold, William Quinn Buckner
+48,1976,Basketball,male,USA,Gold, Phillip Gregory Hubbard
+49,1976,Basketball,male,USA,Gold, Michael Taylor (Tate) Armstrong
+50,1976,Boxing,male,USA,Gold," Howard Edward, Jr. Davis"
+51,1976,Boxing,male,USA,Gold," Leonard, Jr. Spinks"
+52,1976,Boxing,male,USA,Gold, Ray Charles Leonard
+53,1976,Boxing,male,USA,Gold, Michael L. Spinks
+54,1976,Boxing,male,USA,Gold, Leonard Randolph
+55,1976,Equestrian,male,USA,Gold, John Michael Plumb
+56,1976,Equestrian,male,USA,Gold, Bruce Oram Davidson
+57,1976,Equestrian,male,USA,Gold, Edmund Sloane Coffin
+58,1976,Equestrian,female,USA,Gold, Mary Anne Tauskey
+59,1976,Equestrian,male,USA,Gold, Edmund Sloane Coffin
+60,1976,Shooting,male,USA,Gold, Donald Stanley Haldeman
+61,1976,Shooting,male,USA,Gold, Lance Robert Bassham
+62,1976,Wrestling,male,USA,Gold, John Allan Peterson
+63,1984,Aquatics,male,USA,Gold, Gregory Louganis
+64,1984,Aquatics,male,USA,Gold, Gregory Louganis
+65,1984,Aquatics,female,USA,Gold, Theresa Andrews
+66,1984,Aquatics,male,USA,Gold, Richard John Carey
+67,1984,Aquatics,female,USA,Gold, Mary T. Meagher
+68,1984,Aquatics,male,USA,Gold, Steven K. Lundquist
+69,1984,Aquatics,male,USA,Gold, Pablo Morales
+70,1984,Aquatics,male,USA,Gold, Jeffrey James Float
+71,1984,Aquatics,female,USA,Gold, Tracy Anne Caulkins
+72,1984,Aquatics,male,USA,Gold, Steven K. Lundquist
+73,1984,Aquatics,male,USA,Gold, Ambrose Iv Gaines
+74,1984,Aquatics,female,USA,Gold, Tiffany Lisa Cohen
+75,1984,Aquatics,male,USA,Gold, Richard John Carey
+76,1984,Aquatics,female,USA,Gold, Theresa Andrews
+77,1984,Aquatics,male,USA,Gold, Michael Steward Heath
+78,1984,Aquatics,female,USA,Gold, Nancy Lynn Hogshead
+79,1984,Aquatics,male,USA,Gold, Ambrose Iv Gaines
+80,1984,Aquatics,male,USA,Gold, Richard John Carey
+81,1984,Aquatics,male,USA,Gold, Ambrose Iv Gaines
+82,1984,Aquatics,female,USA,Gold, Tracy Anne Caulkins
+83,1984,Aquatics,male,USA,Gold, Michael Jon O'brien
+84,1984,Aquatics,female,USA,Gold, Dara Torres
+85,1984,Aquatics,female,USA,Gold, Tiffany Lisa Cohen
+86,1984,Aquatics,female,USA,Gold, Nancy Lynn Hogshead
+87,1984,Aquatics,male,USA,Gold, Michael Steward Heath
+88,1984,Aquatics,female,USA,Gold, Mary T. Meagher
+89,1984,Aquatics,female,USA,Gold, Tracy Anne Caulkins
+90,1984,Aquatics,male,USA,Gold, Lawrence Bruce Hayes
+91,1984,Aquatics,female,USA,Gold, Nancy Lynn Hogshead
+92,1984,Aquatics,female,USA,Gold, Carolyn Steinseifer
+93,1984,Aquatics,female,USA,Gold, Carolyn Steinseifer
+94,1984,Aquatics,female,USA,Gold, Mary Alice Wayte
+95,1984,Aquatics,male,USA,Gold, David Erwin Larson
+96,1984,Aquatics,female,USA,Gold, Jenna Leigh Johnson
+97,1984,Aquatics,male,USA,Gold, Matthew Biondi
+98,1984,Aquatics,male,USA,Gold, Christopher Carl Cavanaugh
+99,1984,Aquatics,male,USA,Gold, George Thomas Dicarlo
+100,1984,Aquatics,female,USA,Gold, Mary T. Meagher
+101,1984,Aquatics,female,USA,Gold, Tracie Lehuanani Ruiz-conforto
+102,1984,Aquatics,female,USA,Gold, Tracie Lehuanani Ruiz-conforto
+103,1984,Aquatics,female,USA,Gold, Candace Costie
+104,1984,Archery,male,USA,Gold, Darrell Owen Pace
+105,1984,Athletics,female,USA,Gold, Valerie Ann Brisco-hooks
+106,1984,Athletics,female,USA,Gold, Lillie Mae Leatherwood-king
+107,1984,Athletics,male,USA,Gold, Samuel Louis Graddy
+108,1984,Athletics,female,USA,Gold, Alice Regina Brown
+109,1984,Athletics,male,USA,Gold, Carl Lewis
+110,1984,Athletics,female,USA,Gold, Valerie Ann Brisco-hooks
+111,1984,Athletics,female,USA,Gold, Valerie Ann Brisco-hooks
+112,1984,Athletics,female,USA,Gold, Evelyn Ashford
+113,1984,Athletics,male,USA,Gold, Sunder L. Nix
+114,1984,Athletics,male,USA,Gold, Carl Lewis
+115,1984,Athletics,male,USA,Gold, Antonio Ricardo Mckay
+116,1984,Athletics,male,USA,Gold, Ronald James Brown
+117,1984,Athletics,male,USA,Gold, Carl Lewis
+118,1984,Athletics,female,USA,Gold, Sherryl Frances Howard
+119,1984,Athletics,female,USA,Gold, Benita Fitzgerald-brown
+120,1984,Athletics,female,USA,Gold, Jeanette Bolden
+121,1984,Athletics,male,USA,Gold, Alonzo C. Babers
+122,1984,Athletics,male,USA,Gold, Alonzo C. Babers
+123,1984,Athletics,male,USA,Gold, Raymond Armstead
+124,1984,Athletics,female,USA,Gold, Joan Benoit
+125,1984,Athletics,female,USA,Gold, Chandra Danette Cheeseborough
+126,1984,Athletics,male,USA,Gold, Edwin Moses
+127,1984,Athletics,female,USA,Gold, Chandra Danette Cheeseborough
+128,1984,Athletics,male,USA,Gold, Calvin Smith
+129,1984,Athletics,male,USA,Gold, Alfredrick Alphonzo Joyner
+130,1984,Athletics,male,USA,Gold, Roger Kingdom
+131,1984,Athletics,male,USA,Gold, Carl Lewis
+132,1984,Athletics,female,USA,Gold, Evelyn Ashford
+133,1984,Basketball,male,USA,Gold, Christopher Paul Mullin
+134,1984,Basketball,female,USA,Gold, Teresa Edwards
+135,1984,Basketball,female,USA,Gold, Cheryl Deann Miller
+136,1984,Basketball,male,USA,Gold, Joseph William Kleine
+137,1984,Basketball,female,USA,Gold, Kimberly Duane Mulkey
+138,1984,Basketball,female,USA,Gold, Catherine La Ora Boswell
+139,1984,Basketball,female,USA,Gold, Pamela Denise Mcgee
+140,1984,Basketball,male,USA,Gold, Michael Jordan
+141,1984,Basketball,male,USA,Gold, Steven Todd Alford
+142,1984,Basketball,female,USA,Gold, Lynette Woodard
+143,1984,Basketball,male,USA,Gold, Wayman Lawrence Tisdale
+144,1984,Basketball,female,USA,Gold, Carol Jean Menken-schaudt
+145,1984,Basketball,male,USA,Gold, Alvin Cyrrale Robertson
+146,1984,Basketball,male,USA,Gold, Jon Francis Koncak
+147,1984,Basketball,female,USA,Gold, Cindy Jo. Noble
+148,1984,Basketball,male,USA,Gold, Leonard III Wood
+149,1984,Basketball,female,USA,Gold," Ludi ""Lea"" Henry"
+150,1984,Basketball,male,USA,Gold, Vernon Fleming
+151,1984,Basketball,male,USA,Gold, Samuel Bruce Perkins
+152,1984,Basketball,male,USA,Gold, Jeffrey Stephen Turner
+153,1984,Basketball,female,USA,Gold, Denise Marie Curry
+154,1984,Basketball,female,USA,Gold, Janice Faye Lawrence
+155,1984,Basketball,female,USA,Gold, Anne Theresa Donovan
+156,1984,Basketball,male,USA,Gold, Patrick Aloysius Ewing
+157,1984,Boxing,male,USA,Gold, Meldrick Taylor
+158,1984,Boxing,male,USA,Gold, Mark Anthony Breland
+159,1984,Boxing,male,USA,Gold, Pernell Whitaker
+160,1984,Boxing,male,USA,Gold, Jeremy Louis Page
+161,1984,Boxing,male,USA,Gold, Frank Tate
+162,1984,Boxing,male,USA,Gold, Steven D. Mccrory
+163,1984,Boxing,male,USA,Gold, Henry Tillman
+164,1984,Boxing,male,USA,Gold, Paul Garza Jr. Gonzalez
+165,1984,Boxing,male,USA,Gold, Tyrell Biggs
+166,1984,Cycling,male,USA,Gold, Alexi S. Grewal
+167,1984,Cycling,female,USA,Gold, Helen Constance Carpenter-phinney
+168,1984,Cycling,male,USA,Gold, Stephen Edward Hegg
+169,1984,Cycling,male,USA,Gold, Mark Brian Gorski
+170,1984,Equestrian,male,USA,Gold, John Michael Plumb
+171,1984,Equestrian,female,USA,Gold, Karen Elizabeth Stives-lende
+172,1984,Equestrian,male,USA,Gold, Torrance Watkins Fleischmann
+173,1984,Equestrian,male,USA,Gold, Bruce Oram Davidson
+174,1984,Equestrian,male,USA,Gold," Joseph Halpin, Iv Fargis"
+175,1984,Equestrian,male,USA,Gold, Conrad E. Homfeld
+176,1984,Equestrian,female,USA,Gold, Leslie Michele Burr-howard
+177,1984,Equestrian,female,USA,Gold, Melanie Ashworth Smith
+178,1984,Equestrian,male,USA,Gold," Joseph Halpin, Iv Fargis"
+179,1984,Gymnastics,male,USA,Gold, Scott Philip Johnson
+180,1984,Gymnastics,male,USA,Gold, James N. Hartung
+181,1984,Gymnastics,male,USA,Gold, Barthold Wayne Conner
+182,1984,Gymnastics,male,USA,Gold, Mitchell Jay Gaylord
+183,1984,Gymnastics,male,USA,Gold, Peter Glen Vidmar
+184,1984,Gymnastics,male,USA,Gold, Barthold Wayne Conner
+185,1984,Gymnastics,male,USA,Gold, Timothy Patrick Daggett
+186,1984,Gymnastics,male,USA,Gold, Peter Glen Vidmar
+187,1984,Gymnastics,female,USA,Gold, Julianne Lyn Mcnamara
+188,1984,Gymnastics,female,USA,Gold, Mary-Lou Retton
+189,1984,Rowing,female,USA,Gold, Harriet Morris Metcalf
+190,1984,Rowing,female,USA,Gold, Caroll Ann Bower
+191,1984,Rowing,female,USA,Gold, Kristine Lee Norelius
+192,1984,Rowing,female,USA,Gold, Jeanne Ann Flanagan
+193,1984,Rowing,female,USA,Gold, Carolyn Brand Graves
+194,1984,Rowing,female,USA,Gold, Elizabeth Ann Beard
+195,1984,Rowing,male,USA,Gold, Bradley Alan Lewis
+196,1984,Rowing,male,USA,Gold, Paul N. Enquist
+197,1984,Rowing,female,USA,Gold, Kristen Joy Thorssness
+198,1984,Rowing,female,USA,Gold, Shyril O'steen
+199,1984,Rowing,female,USA,Gold, Kathryn Elliott Keeler
+200,1984,Sailing,male,USA,Gold, Jonathan Dunn Mckee
+201,1984,Sailing,male,USA,Gold, Steven Richard Erickson
+202,1984,Sailing,male,USA,Gold, Roderick Hopkins Davis
+203,1984,Sailing,male,USA,Gold, William E. Sr. Buchan
+204,1984,Sailing,male,USA,Gold, Edward Trevelyan
+205,1984,Sailing,male,USA,Gold, William Carl Jr. Buchan
+206,1984,Sailing,male,USA,Gold, Robert Bentley Jr. Haines
+207,1984,Shooting,male,USA,Gold, Edward Etzel
+208,1984,Shooting,male,USA,Gold, Matthew Alexander Dryke
+209,1984,Shooting,female,USA,Gold, Karen Patricia Spurgin
+210,1984,Volleyball,male,USA,Gold, Steve Dennis Timmons
+211,1984,Volleyball,male,USA,Gold, Craig Werner Buck
+212,1984,Volleyball,male,USA,Gold, Christian Marlowe
+213,1984,Volleyball,male,USA,Gold, Richard Lloyd Duwelius
+214,1984,Volleyball,male,USA,Gold, David Patrick Saunders
+215,1984,Volleyball,male,USA,Gold, Mark Waldie
+216,1984,Volleyball,male,USA,Gold, Aldis Imants Berzins
+217,1984,Volleyball,male,USA,Gold, Steven Edward Salmons
+218,1984,Volleyball,male,USA,Gold, Patrick Robert Powers
+219,1984,Volleyball,male,USA,Gold, Douglas Scott Dvorak
+220,1984,Volleyball,male,USA,Gold, Paul Benedict Sunderland
+221,1984,Volleyball,male,USA,Gold, Charles Kiraly
+222,1984,Wrestling,male,USA,Gold, Edward Joseph Banach
+223,1984,Wrestling,male,USA,Gold, Robert Brooks Weaver
+224,1984,Wrestling,male,USA,Gold, Bruce Robert Baumgartner
+225,1984,Wrestling,male,USA,Gold, David Leslie Schultz
+226,1984,Wrestling,male,USA,Gold, Randall Scott Lewis
+227,1984,Wrestling,male,USA,Gold, Mark Philip Schultz
+228,1984,Wrestling,male,USA,Gold, Louis David Banach
+229,1984,Wrestling,male,USA,Gold, Steven Howard Fraser
+230,1984,Wrestling,male,USA,Gold, Jeffrey Carl Blatnick
+231,1988,Aquatics,male,USA,Gold, Gregory Louganis
+232,1988,Aquatics,male,USA,Gold, Gregory Louganis
+233,1988,Aquatics,female,USA,Gold, Janet Evans
+234,1988,Aquatics,male,USA,Gold, Christopher Charles Jacobs
+235,1988,Aquatics,male,USA,Gold, David Charles Berkoff
+236,1988,Aquatics,male,USA,Gold, Troy Dalbey
+237,1988,Aquatics,male,USA,Gold, Douglas S. Gjertsen
+238,1988,Aquatics,male,USA,Gold, Troy Dalbey
+239,1988,Aquatics,male,USA,Gold, Matthew J. Cetlinski
+240,1988,Aquatics,male,USA,Gold, Matthew Biondi
+241,1988,Aquatics,male,USA,Gold, Matthew Biondi
+242,1988,Aquatics,male,USA,Gold, Christopher Charles Jacobs
+243,1988,Aquatics,male,USA,Gold, Matthew Biondi
+244,1988,Aquatics,male,USA,Gold, Richard Alan Schroeder
+245,1988,Aquatics,male,USA,Gold, Thomas Michael Jager
+246,1988,Aquatics,male,USA,Gold, Matthew Biondi
+247,1988,Aquatics,female,USA,Gold, Janet Evans
+248,1988,Aquatics,male,USA,Gold, Matthew Biondi
+249,1988,Aquatics,female,USA,Gold, Janet Evans
+250,1988,Archery,male,USA,Gold, Jay Barrs
+251,1988,Athletics,female,USA,Gold, Jackie Joyner-kersee
+252,1988,Athletics,male,USA,Gold, Harry Butch . Reynolds
+253,1988,Athletics,male,USA,Gold, Steve Lewis
+254,1988,Athletics,female,USA,Gold, Sheila Echols
+255,1988,Athletics,male,USA,Gold, Andre Lamar Phillips
+256,1988,Athletics,female,USA,Gold, Alice Regina Brown
+257,1988,Athletics,male,USA,Gold, Daniel Everett
+258,1988,Athletics,female,USA,Gold, Florence Griffith-joyner
+259,1988,Athletics,female,USA,Gold, Dorothy Louise Ritter
+260,1988,Athletics,female,USA,Gold, Evelyn Ashford
+261,1988,Athletics,male,USA,Gold, Carl Lewis
+262,1988,Athletics,male,USA,Gold, Steve Lewis
+263,1988,Athletics,male,USA,Gold, Roger Kingdom
+264,1988,Athletics,male,USA,Gold, Carl Lewis
+265,1988,Athletics,female,USA,Gold, Jackie Joyner-kersee
+266,1988,Athletics,male,USA,Gold, Joseph Nathaniel Jr. Deloach
+267,1988,Athletics,female,USA,Gold, Florence Griffith-joyner
+268,1988,Athletics,female,USA,Gold, Florence Griffith-joyner
+269,1988,Athletics,male,USA,Gold, Kevin Bernard Robinzine
+270,1988,Basketball,female,USA,Gold, Anne Theresa Donovan
+271,1988,Basketball,female,USA,Gold, Andrea Lane Lloyd
+272,1988,Basketball,female,USA,Gold, Bridgette C. Gordon
+273,1988,Basketball,female,USA,Gold, Katrina Felicia Mcclain
+274,1988,Basketball,female,USA,Gold, Suzanne Mcconnell
+275,1988,Basketball,female,USA,Gold, Victoria Bullett
+276,1988,Basketball,female,USA,Gold, Teresa Weatherspoon
+277,1988,Basketball,female,USA,Gold, Jennifer Gillom
+278,1988,Basketball,female,USA,Gold, Cynthia Lynne Cooper
+279,1988,Basketball,female,USA,Gold, Teresa Edwards
+280,1988,Basketball,female,USA,Gold, Cynthia Louise Brown
+281,1988,Basketball,female,USA,Gold, Mary Camille Ethridge
+282,1988,Boxing,male,USA,Gold, Raymond A. Mercer
+283,1988,Boxing,male,USA,Gold, Kennedy Mckinney
+284,1988,Boxing,male,USA,Gold, Andrew Lester Maynard
+285,1988,Canoe / Kayak,male,USA,Gold, Norman Dean Bellingham
+286,1988,Canoe / Kayak,male,USA,Gold, Gregory Mark Barton
+287,1988,Canoe / Kayak,male,USA,Gold, Gregory Mark Barton
+288,1988,Sailing,female,USA,Gold, Allison Blair Jolly
+289,1988,Sailing,female,USA,Gold, Lynne M. Jewell
+290,1988,Tennis,male,USA,Gold, Kenneth Flach
+291,1988,Tennis,female,USA,Gold, Pamela Howard Shriver
+292,1988,Tennis,female,USA,Gold, Zina Garrison
+293,1988,Tennis,male,USA,Gold, Robert A. Seguso
+294,1988,Volleyball,male,USA,Gold, Steve Dennis Timmons
+295,1988,Volleyball,male,USA,Gold, Troy R. Tanner
+296,1988,Volleyball,male,USA,Gold, Jonathan Edward Root
+297,1988,Volleyball,male,USA,Gold, Scott Thomas Fortune
+298,1988,Volleyball,male,USA,Gold, Eric Sato
+299,1988,Volleyball,male,USA,Gold, Jeffrey Malcolm Stork
+300,1988,Volleyball,male,USA,Gold, David Patrick Saunders
+301,1988,Volleyball,male,USA,Gold, Craig Werner Buck
+302,1988,Volleyball,male,USA,Gold, Robert Douglas Partie
+303,1988,Volleyball,male,USA,Gold, Charles Kiraly
+304,1988,Volleyball,male,USA,Gold, Ricci Judson Luyties
+305,1988,Volleyball,male,USA,Gold, Robert Jan Ctvrtlik
+306,1988,Wrestling,male,USA,Gold, Kenneth Monday
+307,1988,Wrestling,male,USA,Gold, John Smith
+308,1992,Aquatics,male,USA,Gold, Mark Edward Lenzi
+309,1992,Aquatics,female,USA,Gold, Jenny Thompson
+310,1992,Aquatics,female,USA,Gold, Nicole Lee Haislett
+311,1992,Aquatics,female,USA,Gold, Nicole Lee Haislett
+312,1992,Aquatics,male,USA,Gold, Hans Dersch
+313,1992,Aquatics,female,USA,Gold, Jenny Thompson
+314,1992,Aquatics,male,USA,Gold, Mike Barrowman
+315,1992,Aquatics,female,USA,Gold, Megan A. Kleine
+316,1992,Aquatics,female,USA,Gold, Elizabeth Wagstaff
+317,1992,Aquatics,male,USA,Gold, Melvin Stewart
+318,1992,Aquatics,male,USA,Gold, Jon Olsen
+319,1992,Aquatics,male,USA,Gold, Joseph Hudepohl
+320,1992,Aquatics,female,USA,Gold, Anita Nall
+321,1992,Aquatics,female,USA,Gold, Dara Torres
+322,1992,Aquatics,female,USA,Gold, Christine Ahmann-leighton
+323,1992,Aquatics,male,USA,Gold, Melvin Stewart
+324,1992,Aquatics,female,USA,Gold, Summer Sanders
+325,1992,Aquatics,male,USA,Gold, Nelson Diebel
+326,1992,Aquatics,male,USA,Gold, Jeff Norman Rouse
+327,1992,Aquatics,male,USA,Gold, Shaun Jordan
+328,1992,Aquatics,male,USA,Gold, Nelson Diebel
+329,1992,Aquatics,male,USA,Gold, Pablo Morales
+330,1992,Aquatics,female,USA,Gold, Janet Evans
+331,1992,Aquatics,male,USA,Gold, Matthew Biondi
+332,1992,Aquatics,female,USA,Gold, Christine Ahmann-leighton
+333,1992,Aquatics,female,USA,Gold, Nicole Lee Haislett
+334,1992,Aquatics,male,USA,Gold, Matthew Biondi
+335,1992,Aquatics,female,USA,Gold, Angel Martino
+336,1992,Aquatics,male,USA,Gold, Pablo Morales
+337,1992,Aquatics,male,USA,Gold, Joel Thomas
+338,1992,Aquatics,female,USA,Gold, Ashley T Tappin
+339,1992,Aquatics,male,USA,Gold, Thomas Michael Jager
+340,1992,Aquatics,female,USA,Gold, Summer Sanders
+341,1992,Aquatics,female,USA,Gold, Lea Loveless
+342,1992,Aquatics,male,USA,Gold, David Charles Berkoff
+343,1992,Aquatics,male,USA,Gold, Jon Olsen
+344,1992,Aquatics,female,USA,Gold, Karen Josephson
+345,1992,Aquatics,female,USA,Gold, Sarah Josephson
+346,1992,Aquatics,female,USA,Gold, Kristen Babb-sprague
+347,1992,Athletics,male,USA,Gold, Quincy Watts
+348,1992,Athletics,male,USA,Gold, Leroy Burrell
+349,1992,Athletics,male,USA,Gold, Mike Conley
+350,1992,Athletics,male,USA,Gold, Charles L. Jenkins
+351,1992,Athletics,male,USA,Gold, Quincy Watts
+352,1992,Athletics,female,USA,Gold, Carlette D. Guidry-white
+353,1992,Athletics,female,USA,Gold, Jackie Joyner-kersee
+354,1992,Athletics,male,USA,Gold, Michael Johnson
+355,1992,Athletics,male,USA,Gold, James Jett
+356,1992,Athletics,female,USA,Gold, Evelyn Ashford
+357,1992,Athletics,male,USA,Gold, Kevin Curtis Young
+358,1992,Athletics,male,USA,Gold, Steve Lewis
+359,1992,Athletics,male,USA,Gold, Dennis Mitchell
+360,1992,Athletics,male,USA,Gold, Michael Marsh
+361,1992,Athletics,female,USA,Gold, Gwen Torrence
+362,1992,Athletics,male,USA,Gold, Darnell Hall
+363,1992,Athletics,female,USA,Gold, Gwen Torrence
+364,1992,Athletics,male,USA,Gold, Michael D. Stulce
+365,1992,Athletics,female,USA,Gold, Gail Devers
+366,1992,Athletics,female,USA,Gold, Michelle Finn
+367,1992,Athletics,male,USA,Gold, Carl Lewis
+368,1992,Athletics,male,USA,Gold, Carl Lewis
+369,1992,Athletics,male,USA,Gold, Michael Marsh
+370,1992,Athletics,female,USA,Gold, Esther Jones
+371,1992,Athletics,male,USA,Gold, Andrew Valmon
+372,1992,Basketball,male,USA,Gold, Patrick Aloysius Ewing
+373,1992,Basketball,male,USA,Gold, Karl Malone
+374,1992,Basketball,male,USA,Gold, Scottie Pippen
+375,1992,Basketball,male,USA,Gold, Earvin Johnson
+376,1992,Basketball,male,USA,Gold, Christian D. Laettner
+377,1992,Basketball,male,USA,Gold, Charles Barkley
+378,1992,Basketball,male,USA,Gold, Larry Bird
+379,1992,Basketball,male,USA,Gold, Christopher Paul Mullin
+380,1992,Basketball,male,USA,Gold, David Maurice Robinson
+381,1992,Basketball,male,USA,Gold, Michael Jordan
+382,1992,Basketball,male,USA,Gold, John Houston Stockton
+383,1992,Basketball,male,USA,Gold, Clyde Drexler
+384,1992,Boxing,male,USA,Gold, Oscar De la hoya
+385,1992,Canoe / Kayak,male,USA,Gold, Scott Strausbaugh
+386,1992,Canoe / Kayak,male,USA,Gold, Joe Jacobi
+387,1992,Gymnastics,male,USA,Gold, Trent Dimas
+388,1992,Sailing,male,USA,Gold, Mark Jeffrey Reynolds
+389,1992,Sailing,male,USA,Gold, Harold Haenel
+390,1992,Shooting,female,USA,Gold, Launi Kay Meili
+391,1992,Tennis,female,USA,Gold, Gigi Fernandez
+392,1992,Tennis,female,USA,Gold, Jennifer Capriati
+393,1992,Tennis,female,USA,Gold, Mary Joe Fernandez
+394,1992,Wrestling,male,USA,Gold, Kevin Jackson
+395,1992,Wrestling,male,USA,Gold, Bruce Robert Baumgartner
+396,1992,Wrestling,male,USA,Gold, John Smith
+397,1996,Aquatics,female,USA,Gold, Beth Botsford
+398,1996,Aquatics,male,USA,Gold, Scott Tucker
+399,1996,Aquatics,male,USA,Gold, David Fox
+400,1996,Aquatics,female,USA,Gold, Amanda Beard
+401,1996,Aquatics,male,USA,Gold, Jon Olsen
+402,1996,Aquatics,male,USA,Gold, Bradley Schumacher
+403,1996,Aquatics,female,USA,Gold, Melanie Valerio
+404,1996,Aquatics,female,USA,Gold, Kristine Quance
+405,1996,Aquatics,female,USA,Gold, Amy Van dyken
+406,1996,Aquatics,female,USA,Gold, Trina Jackson
+407,1996,Aquatics,female,USA,Gold, Sheila Taormina
+408,1996,Aquatics,female,USA,Gold, Amy Van dyken
+409,1996,Aquatics,male,USA,Gold, Bradley Schumacher
+410,1996,Aquatics,female,USA,Gold, Brooke Bennett
+411,1996,Aquatics,male,USA,Gold, Tom Dolan
+412,1996,Aquatics,male,USA,Gold, Ryan Berube
+413,1996,Aquatics,female,USA,Gold, Lisa Jacob
+414,1996,Aquatics,male,USA,Gold, Kurt Grote
+415,1996,Aquatics,male,USA,Gold, Jeff Norman Rouse
+416,1996,Aquatics,female,USA,Gold, Angel Martino
+417,1996,Aquatics,male,USA,Gold, Tripp Schwenk
+418,1996,Aquatics,male,USA,Gold, John Hargis
+419,1996,Aquatics,male,USA,Gold, Jon Olsen
+420,1996,Aquatics,female,USA,Gold, Catherine Fox
+421,1996,Aquatics,male,USA,Gold, Joseph Hudepohl
+422,1996,Aquatics,male,USA,Gold, Gary Jr. Hall
+423,1996,Aquatics,male,USA,Gold, Jeremy Linn
+424,1996,Aquatics,female,USA,Gold, Jenny Thompson
+425,1996,Aquatics,female,USA,Gold, Lisa Jacob
+426,1996,Aquatics,female,USA,Gold, Amy Van dyken
+427,1996,Aquatics,male,USA,Gold, Mark Henderson
+428,1996,Aquatics,male,USA,Gold, Brad Bridgewater
+429,1996,Aquatics,male,USA,Gold, Josh Davis
+430,1996,Aquatics,female,USA,Gold, Angel Martino
+431,1996,Aquatics,male,USA,Gold, Josh Davis
+432,1996,Aquatics,female,USA,Gold, Jenny Thompson
+433,1996,Aquatics,female,USA,Gold, Jenny Thompson
+434,1996,Aquatics,female,USA,Gold, Whitney L. Hedgepeth
+435,1996,Aquatics,female,USA,Gold, Catherine Fox
+436,1996,Aquatics,female,USA,Gold, Cristina Teuscher
+437,1996,Aquatics,female,USA,Gold, Ashley Whitney
+438,1996,Aquatics,female,USA,Gold, Annette Salmeen
+439,1996,Aquatics,male,USA,Gold, Jeff Norman Rouse
+440,1996,Aquatics,male,USA,Gold, Josh Davis
+441,1996,Aquatics,male,USA,Gold, Gary Jr. Hall
+442,1996,Aquatics,female,USA,Gold, Amy Van dyken
+443,1996,Aquatics,female,USA,Gold, Beth Botsford
+444,1996,Aquatics,female,USA,Gold, Suzannah Bianco
+445,1996,Aquatics,female,USA,Gold, Emily Lesueur
+446,1996,Aquatics,female,USA,Gold, Heather Pease
+447,1996,Aquatics,female,USA,Gold, Tammy Cleland
+448,1996,Aquatics,female,USA,Gold, Jill Sudduth
+449,1996,Aquatics,female,USA,Gold, Margot Thien
+450,1996,Aquatics,female,USA,Gold, Heather Simmons-carrasco
+451,1996,Aquatics,female,USA,Gold, Becky Dyroen-lancer
+452,1996,Aquatics,female,USA,Gold, Jill Savery
+453,1996,Aquatics,female,USA,Gold, Nathalie Schneyder
+454,1996,Archery,male,USA,Gold, Richard Johnson
+455,1996,Archery,male,USA,Gold, Justin Huish
+456,1996,Archery,male,USA,Gold, Rodney White
+457,1996,Archery,male,USA,Gold, Justin Huish
+458,1996,Athletics,male,USA,Gold, Carl Lewis
+459,1996,Athletics,female,USA,Gold, Kim Graham
+460,1996,Athletics,male,USA,Gold, Charles Austin
+461,1996,Athletics,male,USA,Gold, Jason Rouser
+462,1996,Athletics,female,USA,Gold, Inger Miller
+463,1996,Athletics,male,USA,Gold, Dan O'brien
+464,1996,Athletics,female,USA,Gold, Gail Devers
+465,1996,Athletics,female,USA,Gold, Rochelle Stevens
+466,1996,Athletics,female,USA,Gold, Linetta Wilson
+467,1996,Athletics,male,USA,Gold, Lamont Smith
+468,1996,Athletics,male,USA,Gold, Eric Randolph Barnes
+469,1996,Athletics,male,USA,Gold, Alvin Harrison
+470,1996,Athletics,male,USA,Gold, Derrick Adkins
+471,1996,Athletics,female,USA,Gold, Gail Devers
+472,1996,Athletics,male,USA,Gold, Michael Johnson
+473,1996,Athletics,male,USA,Gold, Anthuan Maybank
+474,1996,Athletics,female,USA,Gold, Carlette D. Guidry-white
+475,1996,Athletics,female,USA,Gold, Chryste Gaines
+476,1996,Athletics,female,USA,Gold, Jearl Miles
+477,1996,Athletics,female,USA,Gold, Maicel Malone
+478,1996,Athletics,male,USA,Gold, Kenny Harrison
+479,1996,Athletics,male,USA,Gold, Michael Johnson
+480,1996,Athletics,male,USA,Gold, Allen Johnson
+481,1996,Athletics,male,USA,Gold, Derek Mills
+482,1996,Athletics,female,USA,Gold, Gwen Torrence
+483,1996,Basketball,male,USA,Gold, Grant Hill
+484,1996,Basketball,male,USA,Gold, John Houston Stockton
+485,1996,Basketball,male,USA,Gold, Hakeem Olajuwon
+486,1996,Basketball,male,USA,Gold, Scottie Pippen
+487,1996,Basketball,female,USA,Gold, Carla Mcghee
+488,1996,Basketball,male,USA,Gold, Shaquille O'neal
+489,1996,Basketball,female,USA,Gold, Katrina Felicia Mcclain
+490,1996,Basketball,male,USA,Gold, David Maurice Robinson
+491,1996,Basketball,female,USA,Gold, Lisa Leslie
+492,1996,Basketball,female,USA,Gold, Katy Steding
+493,1996,Basketball,female,USA,Gold, Dawn Staley
+494,1996,Basketball,female,USA,Gold, Nikki Mccray
+495,1996,Basketball,male,USA,Gold, Mitchell J. Richmond
+496,1996,Basketball,female,USA,Gold, Venus Lacey
+497,1996,Basketball,female,USA,Gold, Ruthie Bolton
+498,1996,Basketball,female,USA,Gold, Teresa Edwards
+499,1996,Basketball,male,USA,Gold, Karl Malone
+500,1996,Basketball,male,USA,Gold, Anfernee Hardaway
+501,1996,Basketball,female,USA,Gold, Sheryl Swoopes
+502,1996,Basketball,male,USA,Gold, Charles Barkley
+503,1996,Basketball,male,USA,Gold, Gary Payton
+504,1996,Basketball,female,USA,Gold, Jennifer Azzi
+505,1996,Basketball,male,USA,Gold, Reggie Miller
+506,1996,Basketball,female,USA,Gold, Rebecca Lobo
+507,1996,Boxing,male,USA,Gold, David Reid
+508,1996,Football,female,USA,Gold, Tisha Venturini
+509,1996,Football,female,USA,Gold, Briana Scurry
+510,1996,Football,female,USA,Gold, Carla Overbeck
+511,1996,Football,female,USA,Gold, Brandi Chastain
+512,1996,Football,female,USA,Gold, Kristine Lilly
+513,1996,Football,female,USA,Gold, Tiffany Roberts
+514,1996,Football,female,USA,Gold, Shannon Macmillan
+515,1996,Football,female,USA,Gold, Staci Wilson
+516,1996,Football,female,USA,Gold, Joy Fawcett
+517,1996,Football,female,USA,Gold, Michelle Akers
+518,1996,Football,female,USA,Gold, Carin Gabarra
+519,1996,Football,female,USA,Gold, Mia Hamm
+520,1996,Football,female,USA,Gold, Julie Foudy
+521,1996,Football,female,USA,Gold, Cindy Parlow
+522,1996,Football,female,USA,Gold, Tiffeny Milbrett
+523,1996,Football,female,USA,Gold, Mary Harvey
+524,1996,Gymnastics,female,USA,Gold, Amanda Borden
+525,1996,Gymnastics,female,USA,Gold, Dominique Moceanu
+526,1996,Gymnastics,female,USA,Gold, Shannon Miller
+527,1996,Gymnastics,female,USA,Gold, Shannon Miller
+528,1996,Gymnastics,female,USA,Gold, Amy Chow
+529,1996,Gymnastics,female,USA,Gold, Jaycie Phelps
+530,1996,Gymnastics,female,USA,Gold, Dominique Dawes
+531,1996,Gymnastics,female,USA,Gold, Kerri Strug
+532,1996,Shooting,female,USA,Gold, Kimberly Rhode
+533,1996,Softball,female,USA,Gold, Lori Harrigan
+534,1996,Softball,female,USA,Gold, Danielle Tyler
+535,1996,Softball,female,USA,Gold, Sheila Cornell
+536,1996,Softball,female,USA,Gold, Dorothy Richardson
+537,1996,Softball,female,USA,Gold, Dionna Harris
+538,1996,Softball,female,USA,Gold, Michele Granger
+539,1996,Softball,female,USA,Gold, Christa Lee Williams
+540,1996,Softball,female,USA,Gold, Laura Berg
+541,1996,Softball,female,USA,Gold, Michele Smith
+542,1996,Softball,female,USA,Gold, Julie Smith
+543,1996,Softball,female,USA,Gold, Leah O'brien
+544,1996,Softball,female,USA,Gold, Lisa Fernandez
+545,1996,Softball,female,USA,Gold, Gillian Boxx
+546,1996,Softball,female,USA,Gold, Kim Maher
+547,1996,Softball,female,USA,Gold, Shelly Stokes
+548,1996,Tennis,female,USA,Gold, Gigi Fernandez
+549,1996,Tennis,male,USA,Gold, Andre Agassi
+550,1996,Tennis,female,USA,Gold, Lindsay Davenport
+551,1996,Tennis,female,USA,Gold, Mary Joe Fernandez
+552,1996,Volleyball,male,USA,Gold, Kent Steffes
+553,1996,Volleyball,male,USA,Gold, Charles Kiraly
+554,1996,Wrestling,male,USA,Gold, Kurt Angle
+555,1996,Wrestling,male,USA,Gold, Kendall Duane Cross
+556,1996,Wrestling,male,USA,Gold, Tom Brands
+557,2000,Aquatics,female,USA,Gold, Laura Wilkinson
+558,2000,Aquatics,female,USA,Gold, Jenny Thompson
+559,2000,Aquatics,female,USA,Gold, Jenny Thompson
+560,2000,Aquatics,female,USA,Gold, Amy Van dyken
+561,2000,Aquatics,male,USA,Gold, Lenny Krayzelburg
+562,2000,Aquatics,male,USA,Gold, Gary Jr. Hall
+563,2000,Aquatics,female,USA,Gold, Samantha Arsenault
+564,2000,Aquatics,male,USA,Gold, Anthony Ervin
+565,2000,Aquatics,female,USA,Gold, Diana Munz
+566,2000,Aquatics,female,USA,Gold, Staciana Stitts
+567,2000,Aquatics,male,USA,Gold, Ian Crocker
+568,2000,Aquatics,female,USA,Gold, Jenny Thompson
+569,2000,Aquatics,male,USA,Gold, Jason Lezak
+570,2000,Aquatics,female,USA,Gold, Brooke Bennett
+571,2000,Aquatics,female,USA,Gold, Megan Quann
+572,2000,Aquatics,male,USA,Gold, Tommy Hannan
+573,2000,Aquatics,female,USA,Gold, Megan Quann
+574,2000,Aquatics,female,USA,Gold, Courtney Shealy
+575,2000,Aquatics,female,USA,Gold, Misty Hyman
+576,2000,Aquatics,female,USA,Gold, Brooke Bennett
+577,2000,Aquatics,male,USA,Gold, Lenny Krayzelburg
+578,2000,Aquatics,male,USA,Gold, Gary Jr. Hall
+579,2000,Aquatics,male,USA,Gold, Ed Moses
+580,2000,Aquatics,male,USA,Gold, Lenny Krayzelburg
+581,2000,Aquatics,female,USA,Gold, Ashley T Tappin
+582,2000,Aquatics,female,USA,Gold, Amy Van dyken
+583,2000,Aquatics,female,USA,Gold, Dara Torres
+584,2000,Aquatics,female,USA,Gold, Dara Torres
+585,2000,Aquatics,female,USA,Gold, B J Bedford
+586,2000,Aquatics,female,USA,Gold, Courtney Shealy
+587,2000,Aquatics,male,USA,Gold, Tom Dolan
+588,2000,Aquatics,female,USA,Gold, Erin Ashley Phenix
+589,2000,Aquatics,female,USA,Gold, Kim Black
+590,2000,Aquatics,female,USA,Gold, Ashley T Tappin
+591,2000,Aquatics,female,USA,Gold, Julia Stowers
+592,2000,Aquatics,male,USA,Gold, Tom Malchow
+593,2000,Aquatics,female,USA,Gold, Lindsay Benko
+594,2000,Aquatics,male,USA,Gold, Neil Walker
+595,2000,Athletics,male,USA,Gold, Brian Lewis
+596,2000,Athletics,female,USA,Gold, LaTasha Colander
+597,2000,Athletics,male,USA,Gold, Nick Hysong
+598,2000,Athletics,male,USA,Gold, Tim Montgomery
+599,2000,Athletics,female,USA,Gold, Jearl Miles
+600,2000,Athletics,male,USA,Gold, Kenneth Brokenburr
+601,2000,Athletics,male,USA,Gold, Bernard Williams iii
+602,2000,Athletics,male,USA,Gold, Michael Johnson
+603,2000,Athletics,female,USA,Gold, Monique Hennagan
+604,2000,Athletics,male,USA,Gold, Jon Drummond
+605,2000,Athletics,female,USA,Gold, Stacy Dragila
+606,2000,Athletics,male,USA,Gold, Maurice Greene
+607,2000,Athletics,male,USA,Gold, Angelo Taylor
+608,2000,Athletics,male,USA,Gold, Maurice Greene
+609,2000,Athletics,female,USA,Gold, Andrea Anderson
+610,2000,Baseball,male,USA,Gold, Todd Williams
+611,2000,Baseball,male,USA,Gold, Bobby Seay
+612,2000,Baseball,male,USA,Gold, Jon Rauch
+613,2000,Baseball,male,USA,Gold, Adam Everett
+614,2000,Baseball,male,USA,Gold, Pat Borders
+615,2000,Baseball,male,USA,Gold, Ernie Young
+616,2000,Baseball,male,USA,Gold, Chris George
+617,2000,Baseball,male,USA,Gold, Marcus Jensen
+618,2000,Baseball,male,USA,Gold, Rick Krivda
+619,2000,Baseball,male,USA,Gold, Ben Sheets
+620,2000,Baseball,male,USA,Gold, Brent Abernathy
+621,2000,Baseball,male,USA,Gold, Mike Kinkade
+622,2000,Baseball,male,USA,Gold, Shane Heams
+623,2000,Baseball,male,USA,Gold, Kurt Ainsworth
+624,2000,Baseball,male,USA,Gold, Doug Mientkiewicz
+625,2000,Baseball,male,USA,Gold, Anthony Sanders
+626,2000,Baseball,male,USA,Gold, Brad Wilkerson
+627,2000,Baseball,male,USA,Gold, John Cotton
+628,2000,Baseball,male,USA,Gold, Ryan Franklin
+629,2000,Baseball,male,USA,Gold, Tim Young
+630,2000,Baseball,male,USA,Gold, Mike Neill
+631,2000,Baseball,male,USA,Gold, Sean Burroughs
+632,2000,Baseball,male,USA,Gold, Travis Dawkins
+633,2000,Baseball,male,USA,Gold, Roy Oswalt
+634,2000,Basketball,male,USA,Gold, Vince Carter
+635,2000,Basketball,male,USA,Gold, Kevin Garnett
+636,2000,Basketball,male,USA,Gold, Jason Kidd
+637,2000,Basketball,male,USA,Gold, Steve Smith
+638,2000,Basketball,male,USA,Gold, Shareef Abdur-rahim
+639,2000,Basketball,male,USA,Gold, Ray Allen
+640,2000,Basketball,male,USA,Gold, Gary Payton
+641,2000,Basketball,female,USA,Gold, Yolanda Griffith
+642,2000,Basketball,female,USA,Gold, Ruthie Bolton
+643,2000,Basketball,male,USA,Gold, Antonio Mcdyess
+644,2000,Basketball,male,USA,Gold, Vin Baker
+645,2000,Basketball,female,USA,Gold, Chamique Holdsclaw
+646,2000,Basketball,female,USA,Gold, Kara Wolters
+647,2000,Basketball,female,USA,Gold, Katie Smith
+648,2000,Basketball,male,USA,Gold, Tim Hardaway
+649,2000,Basketball,male,USA,Gold, Alonzo Mourning
+650,2000,Basketball,female,USA,Gold, Delisha Milton
+651,2000,Basketball,female,USA,Gold, Teresa Edwards
+652,2000,Basketball,male,USA,Gold, Allan Houston
+653,2000,Basketball,female,USA,Gold, Nikki Mccray
+654,2000,Basketball,female,USA,Gold, Dawn Staley
+655,2000,Basketball,female,USA,Gold, Lisa Leslie
+656,2000,Basketball,female,USA,Gold, Sheryl Swoopes
+657,2000,Basketball,female,USA,Gold, Natalie Williams
+658,2000,Cycling,male,USA,Gold, Marty Nothstein
+659,2000,Equestrian,male,USA,Gold, David O'connor
+660,2000,Sailing,male,USA,Gold, Magnus Liljedahl
+661,2000,Sailing,male,USA,Gold, Mark Jeffrey Reynolds
+662,2000,Shooting,female,USA,Gold, Nancy Johnson
+663,2000,Softball,female,USA,Gold, Leah O'brien
+664,2000,Softball,female,USA,Gold, Crystl Bustos
+665,2000,Softball,female,USA,Gold, Laura Berg
+666,2000,Softball,female,USA,Gold, Michele Smith
+667,2000,Softball,female,USA,Gold, Danielle Henderson
+668,2000,Softball,female,USA,Gold, Stacey Nuveman
+669,2000,Softball,female,USA,Gold, Lisa Fernandez
+670,2000,Softball,female,USA,Gold, Christie Ambrosi
+671,2000,Softball,female,USA,Gold, Sheila Cornell
+672,2000,Softball,female,USA,Gold, Michelle Venturella
+673,2000,Softball,female,USA,Gold, Dorothy Richardson
+674,2000,Softball,female,USA,Gold, Lori Harrigan
+675,2000,Softball,female,USA,Gold, Jennifer Brundage
+676,2000,Softball,female,USA,Gold, Christa Lee Williams
+677,2000,Softball,female,USA,Gold, Jennifer Mcfalls
+678,2000,Taekwondo,male,USA,Gold, Steven Lopez
+679,2000,Tennis,female,USA,Gold, Venus Williams
+680,2000,Tennis,female,USA,Gold, Serena Williams
+681,2000,Tennis,female,USA,Gold, Venus Williams
+682,2000,Volleyball,male,USA,Gold, Dain Blanton
+683,2000,Volleyball,male,USA,Gold, Eric Fonoimoana
+684,2000,Weightlifting,female,USA,Gold, Tara Nott
+685,2000,Wrestling,male,USA,Gold, Brandon Slay
+686,2000,Wrestling,male,USA,Gold, Rulon Gardner
+687,2004,Aquatics,male,USA,Gold, Michael Phelps
+688,2004,Aquatics,male,USA,Gold, Michael Phelps
+689,2004,Aquatics,female,USA,Gold, Dana Vollmer
+690,2004,Aquatics,male,USA,Gold, Aaron Peirsol
+691,2004,Aquatics,male,USA,Gold, Neil Walker
+692,2004,Aquatics,male,USA,Gold, Dan Ketchum
+693,2004,Aquatics,male,USA,Gold, Michael Phelps
+694,2004,Aquatics,male,USA,Gold, Michael Phelps
+695,2004,Aquatics,male,USA,Gold, Gary Jr. Hall
+696,2004,Aquatics,male,USA,Gold, Aaron Peirsol
+697,2004,Aquatics,male,USA,Gold, Michael Phelps
+698,2004,Aquatics,male,USA,Gold, Mark Gangloff
+699,2004,Aquatics,female,USA,Gold, Rachel Komisarz
+700,2004,Aquatics,female,USA,Gold, Carly Piper
+701,2004,Aquatics,male,USA,Gold, Ian Crocker
+702,2004,Aquatics,male,USA,Gold, Ryan Lochte
+703,2004,Aquatics,female,USA,Gold, Natalie Coughlin
+704,2004,Aquatics,male,USA,Gold, Michael Phelps
+705,2004,Aquatics,male,USA,Gold, Scott Goldblatt
+706,2004,Aquatics,male,USA,Gold, Brendan Hansen
+707,2004,Aquatics,male,USA,Gold, Klete Keller
+708,2004,Aquatics,female,USA,Gold, Natalie Coughlin
+709,2004,Aquatics,female,USA,Gold, Amanda Beard
+710,2004,Aquatics,female,USA,Gold, Rhi Jeffrey
+711,2004,Aquatics,male,USA,Gold, Lenny Krayzelburg
+712,2004,Aquatics,female,USA,Gold, Lindsay Benko
+713,2004,Aquatics,female,USA,Gold, Kaitlin Sandeno
+714,2004,Aquatics,male,USA,Gold, Jason Lezak
+715,2004,Aquatics,male,USA,Gold, Peter Vanderkaay
+716,2004,Aquatics,male,USA,Gold, Aaron Peirsol
+717,2004,Athletics,female,USA,Gold, Monique Henderson
+718,2004,Athletics,male,USA,Gold, Derrick Brew
+719,2004,Athletics,female,USA,Gold, Joanna Hayes
+720,2004,Athletics,male,USA,Gold, Jeremy Wariner
+721,2004,Athletics,male,USA,Gold, Darold Williamson
+722,2004,Athletics,female,USA,Gold, Monique Hennagan
+723,2004,Athletics,male,USA,Gold, Shawn Crawford
+724,2004,Athletics,male,USA,Gold, Dwight Phillips
+725,2004,Athletics,male,USA,Gold, Kelly Willie
+726,2004,Athletics,male,USA,Gold, Timothy Mack
+727,2004,Athletics,female,USA,Gold, Moushaumi Robinson
+728,2004,Athletics,female,USA,Gold, Sanya Richards
+729,2004,Athletics,female,USA,Gold, Crystal Cox
+730,2004,Athletics,male,USA,Gold, Jeremy Wariner
+731,2004,Athletics,male,USA,Gold, Justin Gatlin
+732,2004,Athletics,male,USA,Gold, Otis Harris
+733,2004,Athletics,female,USA,Gold, Deedee Trotter
+734,2004,Basketball,female,USA,Gold, Diana Taurasi
+735,2004,Basketball,female,USA,Gold, Katie Smith
+736,2004,Basketball,female,USA,Gold, Shannon Johnson
+737,2004,Basketball,female,USA,Gold, Yolanda Griffith
+738,2004,Basketball,female,USA,Gold, Ruth Riley
+739,2004,Basketball,female,USA,Gold, Tina Thompson
+740,2004,Basketball,female,USA,Gold, Lisa Leslie
+741,2004,Basketball,female,USA,Gold, Sheryl Swoopes
+742,2004,Basketball,female,USA,Gold, Tamika Catchings
+743,2004,Basketball,female,USA,Gold, Suzanne Bird
+744,2004,Basketball,female,USA,Gold, Dawn Staley
+745,2004,Basketball,female,USA,Gold, Swintayla Cash
+746,2004,Boxing,male,USA,Gold, Andre Ward
+747,2004,Cycling,male,USA,Gold, Tyler Hamilton
+748,2004,Equestrian,male,USA,Gold, Chris Kappler
+749,2004,Equestrian,female,USA,Gold, Beezie Madden
+750,2004,Equestrian,male,USA,Gold, Mclain Ward
+751,2004,Equestrian,male,USA,Gold, Peter Wylde
+752,2004,Fencing,female,USA,Gold, Mariel Zagunis
+753,2004,Football,female,USA,Gold, Joy Fawcett
+754,2004,Football,female,USA,Gold, Abby Wambach
+755,2004,Football,female,USA,Gold, Shannon Boxx
+756,2004,Football,female,USA,Gold, Aly Wagner
+757,2004,Football,female,USA,Gold, Lindsay Tarpley
+758,2004,Football,female,USA,Gold, Cindy Parlow
+759,2004,Football,female,USA,Gold, Briana Scurry
+760,2004,Football,female,USA,Gold, Mia Hamm
+761,2004,Football,female,USA,Gold, Cat Reddick
+762,2004,Football,female,USA,Gold, Heather Mitts
+763,2004,Football,female,USA,Gold, Brandi Chastain
+764,2004,Football,female,USA,Gold, Christie Rampone
+765,2004,Football,female,USA,Gold, Kate Markgraf
+766,2004,Football,female,USA,Gold, Heather O reilly
+767,2004,Football,female,USA,Gold, Kristine Lilly
+768,2004,Football,female,USA,Gold, Angela Hucles
+769,2004,Gymnastics,male,USA,Gold, Paul Hamm
+770,2004,Gymnastics,female,USA,Gold, Carly Patterson
+771,2004,Rowing,male,USA,Gold, Wyatt Allen
+772,2004,Rowing,male,USA,Gold, Chris Ahrens
+773,2004,Rowing,male,USA,Gold, Beau Hoopman
+774,2004,Rowing,male,USA,Gold, Matt Deakin
+775,2004,Rowing,male,USA,Gold, Dan Beery
+776,2004,Rowing,male,USA,Gold, Joseph Hansen
+777,2004,Rowing,male,USA,Gold, Pete Cipollone
+778,2004,Rowing,male,USA,Gold, Bryan Volpenhein
+779,2004,Rowing,male,USA,Gold, Jason Read
+780,2004,Sailing,male,USA,Gold, Paul Foerster
+781,2004,Sailing,male,USA,Gold, Kevin Burnham
+782,2004,Shooting,female,USA,Gold, Kimberly Rhode
+783,2004,Shooting,male,USA,Gold, Matthew Emmons
+784,2004,Softball,female,USA,Gold, Laura Berg
+785,2004,Softball,female,USA,Gold, Lisa Fernandez
+786,2004,Softball,female,USA,Gold, Leah Amico
+787,2004,Softball,female,USA,Gold, Kelly Kretschman
+788,2004,Softball,female,USA,Gold, Amanda Freed
+789,2004,Softball,female,USA,Gold, Crystl Bustos
+790,2004,Softball,female,USA,Gold, Catherine Osterman
+791,2004,Softball,female,USA,Gold, Jennie Finch
+792,2004,Softball,female,USA,Gold, Natasha Watley
+793,2004,Softball,female,USA,Gold, Jenny Topping
+794,2004,Softball,female,USA,Gold, Jessica Mendoza
+795,2004,Softball,female,USA,Gold, Tairia Flowers
+796,2004,Softball,female,USA,Gold, Lovieanne Jung
+797,2004,Softball,female,USA,Gold, Stacey Nuveman
+798,2004,Softball,female,USA,Gold, Lori Harrigan
+799,2004,Taekwondo,male,USA,Gold, Steven Lopez
+800,2004,Volleyball,female,USA,Gold, Kerri Walsh
+801,2004,Volleyball,female,USA,Gold, Misty May-treanor
+802,2004,Wrestling,male,USA,Gold, Cael Sanderson
+803,2008,Aquatics,male,USA,Gold, Erik Vendt
+804,2008,Aquatics,male,USA,Gold, Michael Phelps
+805,2008,Aquatics,female,USA,Gold, Natalie Coughlin
+806,2008,Aquatics,male,USA,Gold, Michael Phelps
+807,2008,Aquatics,male,USA,Gold, Jason Lezak
+808,2008,Aquatics,male,USA,Gold, Michael Phelps
+809,2008,Aquatics,male,USA,Gold, Michael Phelps
+810,2008,Aquatics,male,USA,Gold, Mark Gangloff
+811,2008,Aquatics,male,USA,Gold, Ryan Lochte
+812,2008,Aquatics,male,USA,Gold, Klete Keller
+813,2008,Aquatics,male,USA,Gold, Peter Vanderkaay
+814,2008,Aquatics,male,USA,Gold, Michael Phelps
+815,2008,Aquatics,male,USA,Gold, Ben Wildman-tobriner
+816,2008,Aquatics,male,USA,Gold, Cullen Jones
+817,2008,Aquatics,male,USA,Gold, David Walters
+818,2008,Aquatics,male,USA,Gold, Garrett Weber-gale
+819,2008,Aquatics,male,USA,Gold, Ian Crocker
+820,2008,Aquatics,male,USA,Gold, Ryan Lochte
+821,2008,Aquatics,male,USA,Gold, Aaron Peirsol
+822,2008,Aquatics,male,USA,Gold, Ricky Berens
+823,2008,Aquatics,male,USA,Gold, Jason Lezak
+824,2008,Aquatics,female,USA,Gold, Rebecca Soni
+825,2008,Aquatics,male,USA,Gold, Nathan Adrian
+826,2008,Aquatics,male,USA,Gold, Matt Grevers
+827,2008,Aquatics,male,USA,Gold, Brendan Hansen
+828,2008,Aquatics,male,USA,Gold, Michael Phelps
+829,2008,Aquatics,male,USA,Gold, Michael Phelps
+830,2008,Aquatics,male,USA,Gold, Aaron Peirsol
+831,2008,Aquatics,male,USA,Gold, Matt Grevers
+832,2008,Aquatics,male,USA,Gold, Michael Phelps
+833,2008,Aquatics,male,USA,Gold, Garrett Weber-gale
+834,2008,Athletics,male,USA,Gold, Angelo Taylor
+835,2008,Athletics,female,USA,Gold, Allyson Felix
+836,2008,Athletics,female,USA,Gold, Dawn Harper
+837,2008,Athletics,male,USA,Gold, David Neville
+838,2008,Athletics,male,USA,Gold, Bryan Clay
+839,2008,Athletics,male,USA,Gold, Angelo Taylor
+840,2008,Athletics,male,USA,Gold, LaShawn Merritt
+841,2008,Athletics,female,USA,Gold, Mary Wineberg
+842,2008,Athletics,male,USA,Gold, LaShawn Merritt
+843,2008,Athletics,female,USA,Gold, Sanya Richards
+844,2008,Athletics,female,USA,Gold, Stephanie Brown trafton
+845,2008,Athletics,male,USA,Gold, Jeremy Wariner
+846,2008,Athletics,female,USA,Gold, Monique Henderson
+847,2008,Basketball,male,USA,Gold, Chris Bosh
+848,2008,Basketball,male,USA,Gold, Dwight Howard
+849,2008,Basketball,male,USA,Gold, Tayshaun Prince
+850,2008,Basketball,female,USA,Gold, Lisa Leslie
+851,2008,Basketball,male,USA,Gold, Carmelo Anthony
+852,2008,Basketball,female,USA,Gold, Tamika Catchings
+853,2008,Basketball,male,USA,Gold, Carlos Boozer
+854,2008,Basketball,male,USA,Gold, Jason Kidd
+855,2008,Basketball,female,USA,Gold, Seimone Augustus
+856,2008,Basketball,female,USA,Gold, Kara Lawson
+857,2008,Basketball,male,USA,Gold, Lebron James
+858,2008,Basketball,female,USA,Gold, Delisha Milton-jones
+859,2008,Basketball,male,USA,Gold, Dwyane Wade
+860,2008,Basketball,female,USA,Gold, Katie Smith
+861,2008,Basketball,male,USA,Gold, Chris Paul
+862,2008,Basketball,female,USA,Gold, Tina Thompson
+863,2008,Basketball,female,USA,Gold, Sylvia Fowles
+864,2008,Basketball,female,USA,Gold, Candace Parker
+865,2008,Basketball,male,USA,Gold, Kobe Bryant
+866,2008,Basketball,female,USA,Gold, Cappie Pondexter
+867,2008,Basketball,male,USA,Gold, Michael Redd
+868,2008,Basketball,female,USA,Gold, Sue Bird
+869,2008,Basketball,male,USA,Gold, Deron Williams
+870,2008,Basketball,female,USA,Gold, Diana Taurasi
+871,2008,Cycling,female,USA,Gold, Kristin Armstrong
+872,2008,Equestrian,male,USA,Gold, Will Simpson
+873,2008,Equestrian,male,USA,Gold, Mclain Ward
+874,2008,Equestrian,female,USA,Gold, Beezie Madden
+875,2008,Equestrian,female,USA,Gold, Laura Kraut
+876,2008,Fencing,female,USA,Gold, Mariel Zagunis
+877,2008,Football,female,USA,Gold, Stephanie Cox
+878,2008,Football,female,USA,Gold, Amy Rodriguez
+879,2008,Football,female,USA,Gold, Natasha Kai
+880,2008,Football,female,USA,Gold, Christie Rampone
+881,2008,Football,female,USA,Gold, Rachel Buehler
+882,2008,Football,female,USA,Gold, Heather Mitts
+883,2008,Football,female,USA,Gold, Lauren Cheney
+884,2008,Football,female,USA,Gold, Aly Wagner
+885,2008,Football,female,USA,Gold, Angela Hucles
+886,2008,Football,female,USA,Gold, Shannon Boxx
+887,2008,Football,female,USA,Gold, Heather O reilly
+888,2008,Football,female,USA,Gold, Kate Markgraf
+889,2008,Football,female,USA,Gold, Nicole Barnhart
+890,2008,Football,female,USA,Gold, Tobin Heath
+891,2008,Football,female,USA,Gold, Hope Solo
+892,2008,Football,female,USA,Gold, Lindsay Tarpley
+893,2008,Football,female,USA,Gold, Carli Lloyd
+894,2008,Football,female,USA,Gold, Lori Chalupny
+895,2008,Gymnastics,female,USA,Gold, Shawn Johnson
+896,2008,Gymnastics,female,USA,Gold, Nastia Liukin
+897,2008,Rowing,female,USA,Gold, Anne Cummins
+898,2008,Rowing,female,USA,Gold, Lindsay Shoop
+899,2008,Rowing,female,USA,Gold, Susan Francia
+900,2008,Rowing,female,USA,Gold, Caryn Davies
+901,2008,Rowing,female,USA,Gold, Mary Whipple
+902,2008,Rowing,female,USA,Gold, Elle Logan
+903,2008,Rowing,female,USA,Gold, Erin Cafaro
+904,2008,Rowing,female,USA,Gold, Anna Goodale
+905,2008,Rowing,female,USA,Gold, Caroline Lind
+906,2008,Sailing,female,USA,Gold, Anna Tunnicliffe
+907,2008,Shooting,male,USA,Gold, Glenn Eller
+908,2008,Shooting,male,USA,Gold, Vincent Hancock
+909,2008,Tennis,female,USA,Gold, Venus Williams
+910,2008,Tennis,female,USA,Gold, Serena Williams
+911,2008,Volleyball,female,USA,Gold, Misty May-treanor
+912,2008,Volleyball,female,USA,Gold, Kerri Walsh
+913,2008,Volleyball,male,USA,Gold, Todd Rogers
+914,2008,Volleyball,male,USA,Gold, Philip Dalhausser
+915,2008,Volleyball,male,USA,Gold, David Lee
+916,2008,Volleyball,male,USA,Gold, Lloy Ball
+917,2008,Volleyball,male,USA,Gold, Richard Lambourne
+918,2008,Volleyball,male,USA,Gold, Ryan Millar
+919,2008,Volleyball,male,USA,Gold, Thomas Hoff
+920,2008,Volleyball,male,USA,Gold, Gabriel Gardner
+921,2008,Volleyball,male,USA,Gold, Scott Touzinsky
+922,2008,Volleyball,male,USA,Gold, William Priddy
+923,2008,Volleyball,male,USA,Gold, Sean Rooney
+924,2008,Volleyball,male,USA,Gold, Clayton Stanley
+925,2008,Volleyball,male,USA,Gold, Kevin Hansen
+926,2008,Volleyball,male,USA,Gold, Riley Salmon
+927,2008,Wrestling,male,USA,Gold, Henry Cejudo
+928,2016,aquatics,female,USA,Gold,Abbey Weitzeil
+929,2016,gymnastics,female,USA,Gold,Alexandra Raisman
+930,2016,aquatics,female,USA,Gold,Allison Schmitt
+931,2016,rowing,female,USA,Gold,Amanda Elmore
+932,2016,rowing,female,USA,Gold,Amanda Polk
+933,2016,basketball,female,USA,Gold,Angel McCoughtry
+934,2016,aquatics,female,USA,Gold,Aria Fischer
+935,2016,athletics,male,USA,Gold,Arman Hall
+936,2016,aquatics,female,USA,Gold,Ashleigh Johnson
+937,2016,athletics,male,USA,Gold,Ashton Eaton
+938,2016,tennis,female,USA,Gold,Bethanie Mattek-Sands
+939,2016,aquatics,male,USA,Gold,Blake Pieroni
+940,2016,basketball,female,USA,Gold,Breanna Stewart
+941,2016,athletics,female,USA,Gold,Brianna Rollins
+942,2016,basketball,female,USA,Gold,Brittney Griner
+943,2016,basketball,male,USA,Gold,Carmelo Anthony
+944,2016,aquatics,female,USA,Gold,Catherine Meili
+945,2016,athletics,male,USA,Gold,Christian Taylor
+946,2016,aquatics,female,USA,Gold,Cierra Runge
+947,2016,boxing,female,USA,Gold,Claressa Maria Shields
+948,2016,aquatics,male,USA,Gold,Clark Smith
+949,2016,aquatics,male,USA,Gold,Cody Miller
+950,2016,cycling,male,USA,Gold,Connor Fields
+951,2016,aquatics,male,USA,Gold,Conor Dwyer
+952,2016,aquatics,female,USA,Gold,Courtney Mathewson
+953,2016,athletics,female,USA,Gold,Courtney Okolo
+954,2016,athletics,female,USA,Gold,Dalilah Muhammad
+955,2016,aquatics,female,USA,Gold,Dana Vollmer
+956,2016,aquatics,male,USA,Gold,David Plummer
+957,2016,athletics,male,USA,Gold,David Verburg
+958,2016,basketball,male,USA,Gold,DeAndre Jordan
+959,2016,basketball,male,USA,Gold,DeMarcus Cousins
+960,2016,basketball,male,USA,Gold,Demar DeRozan
+961,2016,basketball,female,USA,Gold,Diana Taurasi
+962,2016,basketball,male,USA,Gold,Draymond Green
+963,2016,rowing,female,USA,Gold,Eleanor Logan
+964,2016,basketball,female,USA,Gold,Elena Delle Donne
+965,2016,rowing,female,USA,Gold,Emily Regan
+966,2016,athletics,female,USA,Gold,English Gardner
+967,2016,athletics,female,USA,Gold,Francena McCorory
+968,2016,gymnastics,female,USA,Gold,Gabrielle Douglas
+969,2016,athletics,male,USA,Gold,Gil Roberts
+970,2016,aquatics,male,USA,Gold,Gunnar Bentz
+971,2016,triathlon,female,USA,Gold,Gwen Jorgensen
+972,2016,basketball,male,USA,Gold,Harrison Barnes
+973,2016,wrestling,female,USA,Gold,Helen Louise Maroulis
+974,2016,aquatics,male,USA,Gold,Jack Conger
+975,2016,tennis,male,USA,Gold,Jack Sock
+976,2016,aquatics,male,USA,Gold,James Feigen
+977,2016,athletics,male,USA,Gold,Jeff Henderson
+978,2016,basketball,male,USA,Gold,Jimmy Butler
+979,2016,aquatics,female,USA,Gold,KK Clark
+980,2016,aquatics,female,USA,Gold,Kaleigh Gilchrist
+981,2016,aquatics,female,USA,Gold,Kami Craig
+982,2016,rowing,female,USA,Gold,Katelin Snyder
+983,2016,aquatics,female,USA,Gold,Kathleen Baker
+984,2016,judo,female,USA,Gold,Kayla Harrison
+985,2016,aquatics,female,USA,Gold,Kelsi Worrell
+986,2016,athletics,male,USA,Gold,Kerron Clement
+987,2016,rowing,female,USA,Gold,Kerry Simmonds
+988,2016,aquatics,male,USA,Gold,Kevin Cordes
+989,2016,basketball,male,USA,Gold,Kevin Durant
+990,2016,aquatics,female,USA,Gold,Kiley Neushul
+991,2016,basketball,male,USA,Gold,Klay Thompson
+992,2016,cycling,female,USA,Gold,Kristin Armstrong
+993,2016,athletics,male,USA,Gold,Kyle Clemons
+994,2016,wrestling,male,USA,Gold,Kyle Frederick Snyder
+995,2016,basketball,male,USA,Gold,Kyle Lowry
+996,2016,basketball,male,USA,Gold,Kyrie Irving
+997,2016,athletics,male,USA,Gold,Lashawn Merritt
+998,2016,gymnastics,female,USA,Gold,Lauren Hernandez
+999,2016,rowing,female,USA,Gold,Lauren Schmetterling
+1000,2016,aquatics,female,USA,Gold,Leah Smith
+1001,2016,basketball,female,USA,Gold,Lindsay Whalen
+1002,2016,aquatics,female,USA,Gold,Madeline Musselman
+1003,2016,gymnastics,female,USA,Gold,Madison Kocian
+1004,2016,aquatics,female,USA,Gold,Maggie Steffens
+1005,2016,aquatics,female,USA,Gold,Makenzie Fischer
+1006,2016,athletics,male,USA,Gold,Matthew Centrowitz
+1007,2016,basketball,female,USA,Gold,Maya Moore
+1008,2016,rowing,female,USA,Gold,Meghan Musnicki
+1009,2016,aquatics,female,USA,Gold,Melanie Margalis
+1010,2016,aquatics,female,USA,Gold,Melissa Seidemann
+1011,2016,athletics,female,USA,Gold,Michelle Carter
+1012,2016,aquatics,female,USA,Gold,Missy Franklin
+1013,2016,athletics,female,USA,Gold,Morolake Akinosun
+1014,2016,athletics,female,USA,Gold,Natasha Hastings
+1015,2016,aquatics,female,USA,Gold,Olivia Smoliga
+1016,2016,basketball,male,USA,Gold,Paul George
+1017,2016,athletics,female,USA,Gold,Phyllis Francis
+1018,2016,aquatics,female,USA,Gold,Rachel Fattal
+1019,2016,athletics,male,USA,Gold,Ryan Crouser
+1020,2016,aquatics,male,USA,Gold,Ryan Held
+1021,2016,aquatics,male,USA,Gold,Ryan Lochte
+1022,2016,aquatics,female,USA,Gold,Sami Hill
+1023,2016,basketball,female,USA,Gold,Seimone Augustus
+1024,2016,basketball,female,USA,Gold,Sue Bird
+1025,2016,basketball,female,USA,Gold,Sylvia Fowles
+1026,2016,basketball,female,USA,Gold,Tamika Catchings
+1027,2016,athletics,female,USA,Gold,Taylor Ellis-Watson
+1028,2016,rowing,female,USA,Gold,Tessa Gobbo
+1029,2016,basketball,female,USA,Gold,Tina Charles
+1030,2016,aquatics,male,USA,Gold,Tom Shields
+1031,2016,athletics,male,USA,Gold,Tony McQuay
+1032,2016,athletics,female,USA,Gold,Tori Bowie
+1033,2016,aquatics,male,USA,Gold,Townley Haas
+1034,2016,shooting,female,USA,Gold,Virginia Thrasher
