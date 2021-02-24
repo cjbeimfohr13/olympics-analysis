@@ -13,6 +13,31 @@
     <title>Olympic Games 1976-2016</title>
 </head>
 <body>
+
+  <div class="col-md-2">
+    <aside class="filters">
+      <div class="panel panel-default">
+        <div class="panel-heading">Filter Search</div>
+        <div class="panel-body">
+          <form>
+            <label>Date</label>
+            <input id="datetime" type="text" aria-label="date" class="form-control" placeholder="1/11/2011">
+            <label>City</label>
+            <input id="city" type="text" aria-label="city" class="form-control" placeholder="enter city name">
+            <label>State</label>
+            <input id="state" type="text" aria-label="state" class="form-control" placeholder="enter state name">
+            <label>Country</label>
+            <input id="country" type="text" aria-label="country" class="form-control"
+              placeholder="enter country name">
+            <label>Shape</label>
+            <input id="shape" type="text" aria-label="shape" class="form-control" placeholder="enter shape name">
+            <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+          </form>
+        </div>
+      </div>
+    </aside>
+  </div>
+
       <!--Start the data table-->
   <div class="container" style="text-align:center;">
     <div class="row">
@@ -57,8 +82,10 @@
 </div>
     </div>
   </div>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
 
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
-    <script src="app.js"></script>
+    <!-- <script src="app.js"></script> -->
 </body>
 </html>
