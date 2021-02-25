@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <div class="col-md-2">
+  <!-- <div class="col-md-2">
     <aside class="filters">
       <div class="panel panel-default">
         <div class="panel-heading">Filter Search</div>
@@ -39,7 +39,7 @@
   </div>
 
       <!--Start the data table-->
-  <div class="container" style="text-align:center;">
+  <!-- <div class="container" style="text-align:center;">
     <div class="row">
       <div class="col 12 divtable">
         <hr>
@@ -52,15 +52,15 @@
           <thead>
             <tr>
               <!-- <th scope="col">#</th> -->
-              <th scope="col">id</th>
+              <!-- <th scope="col">id</th>
               <th scope="col">year</th>
               <th scope="col">sport</th>
               <th scope="col">sex</th>
               <th scope="col">nationality</th>
               <th scope="col">medal</th>
               <th scope="col">name</th>
-            </tr>
-          </thead>
+            </tr> -->
+          <!-- </thead>
     {% for t in table %}
 	<tr>
 	<th scope="row">{{t.id}}</th>
@@ -80,12 +80,18 @@
 	{% endfor %}
 </table>
 </div>
-    </div>
-  </div>
-  <script src="http://d3js.org/d3.v3.min.js"></script>
-
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
+    </div> -->
+  <!-- </div>  -->
+  
+  
+<script src="http://d3js.org/d3.v3.min.js"></script>  
+<script type="text/javascript">
+ var data = {{ all_athletes | tojson }}; 
+  console.log(data);
+</script> -->
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
     <!-- <script src="app.js"></script> -->
 </body>
 </html>
