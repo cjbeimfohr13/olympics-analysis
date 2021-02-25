@@ -98,16 +98,30 @@ def athletes():
         olympic_dict["name"] = name
         all_athletes.append(olympic_dict)
 
-    return render_template(index.html, all_athletes=all_athletes)
+    return render_template(index.html, all_athletes=json.dumps(all_athletes))
 
-@app.route("/api/v1.0/data")
+@app.route("/api/v1.0/data", methods=['GET','POST'])
 def data():
     session = Session(engine)
+    results = session.query(Athlete.year, Athlete.sport, Athlete.sex, Athlete.nationality, Athlete.medal, Athlete.name).all()
+    session.close()
+    # Create a dictionary from the row data and append to a list of all_passengers
+    all_athletes = []
+    for year, sport, sex, nationality, medal, name in results:
+        olympic_dict = {}
+        olympic_dict["year"] = year
+        olympic_dict["sport"] = sport
+        olympic_dict["sex"] = sex
+        olympic_dict["nationality"] = nationality
+        olympic_dict["medal"] = medal
+        olympic_dict["name"] = name
+        all_athletes.append(olympic_dict)
 
-    table= session.query(Athlete)
+    # return render_template(index.html, all_athletes=all_athletes)
+    # table= session.query(Athlete)
 
-    print(table)
-    return render_template("data.html", table=table)
+    # print(table)
+    return render_template("data.html", all_athletes = all_athletes)
 
 
 if __name__ == '__main__':
