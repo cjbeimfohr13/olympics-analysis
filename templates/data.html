@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -11,34 +16,96 @@
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     <title>Olympic Games 1976-2016</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-md-10">
+        <aside class="filters">
+          <div class="panel panel-default">
+            <div class="panel-heading">Filter Search</div>
+            <div class="panel-body">
+              <form>
+                <label>Date</label>
+                <input
+                  id="datetime"
+                  type="text"
+                  aria-label="date"
+                  class="form-control"
+                  placeholder="1/11/2011"
+                />
+                <label>City</label>
+                <input
+                  id="city"
+                  type="text"
+                  aria-label="city"
+                  class="form-control"
+                  placeholder="enter city name"
+                />
+                <label>State</label>
+                <input
+                  id="state"
+                  type="text"
+                  aria-label="state"
+                  class="form-control"
+                  placeholder="enter state name"
+                />
+                <label>Country</label>
+                <input
+                  id="country"
+                  type="text"
+                  aria-label="country"
+                  class="form-control"
+                  placeholder="enter country name"
+                />
+                <label>Shape</label>
+                <input
+                  id="shape"
+                  type="text"
+                  aria-label="shape"
+                  class="form-control"
+                  placeholder="enter shape name"
+                />
+                <button id="filter-btn" type="button" class="btn btn-default">
+                  Filter Table
+                </button>
+              </form>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
 
-  <!-- <div class="col-md-2">
-    <aside class="filters">
-      <div class="panel panel-default">
-        <div class="panel-heading">Filter Search</div>
-        <div class="panel-body">
-          <form>
-            <label>Date</label>
-            <input id="datetime" type="text" aria-label="date" class="form-control" placeholder="1/11/2011">
-            <label>City</label>
-            <input id="city" type="text" aria-label="city" class="form-control" placeholder="enter city name">
-            <label>State</label>
-            <input id="state" type="text" aria-label="state" class="form-control" placeholder="enter state name">
-            <label>Country</label>
-            <input id="country" type="text" aria-label="country" class="form-control"
-              placeholder="enter country name">
-            <label>Shape</label>
-            <input id="shape" type="text" aria-label="shape" class="form-control" placeholder="enter shape name">
-            <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
-          </form>
+    <div class="container" style="text-align: center">
+      <div class="row">
+        <div class="col-md-10">
+          <hr />
+          <h1 class="dataHead">Data from the Olympics between 1976-2016.</h1>
+          <h2 class="dataSub">(excluding 1980 & 2012)</h2>
+          <hr />
+          <p>The table below is the data used throughout the other pages.</p>
+          <br />
+          <div id="table-area" class="">
+            <table id="data-table" class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="table-head">medal</th>
+                  <th class="table-head">name</th>
+                  <th class="table-head">nationality</th>
+                  <th class="table-head">sex</th>
+                  <th class="table-head">sport</th>
+                  <th class="table-head">year</th>
+                  <!-- <th class="table-head">Comments</th> -->
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
         </div>
       </div>
-    </aside>
-  </div>
+    </div>
+   
 
-      <!--Start the data table-->
+   
   <!-- <div class="container" style="text-align:center;">
     <div class="row">
       <div class="col 12 divtable">
@@ -51,8 +118,8 @@
         <table class="dataframe">
           <thead>
             <tr>
-              <!-- <th scope="col">#</th> -->
-              <!-- <th scope="col">id</th>
+              <th scope="col">#</th> -->
+         <!-- <th scope="col">id</th>
               <th scope="col">year</th>
               <th scope="col">sport</th>
               <th scope="col">sex</th>
@@ -60,38 +127,35 @@
               <th scope="col">medal</th>
               <th scope="col">name</th>
             </tr> -->
-          <!-- </thead>
-    {% for t in table %}
-	<tr>
-	<th scope="row">{{t.id}}</th>
-	<td>{{t.year}}
-	</td>
-	<td>{{t.sport}}
-	</td>
-	<td>{{t.sex}}
-	</td>
-	<td>{{t.nationality}}
-    </td>
-    <td>{{t.medal}}
-    </td>
-    <td>{{t.name}}
-    </td>
-    </tr>
-	{% endfor %}
-</table>
-</div>
-    </div> -->
-  <!-- </div>  -->
-  
-  
-<script src="http://d3js.org/d3.v3.min.js"></script>  
-<script type="text/javascript">
- var data = {{ all_athletes | tojson }}; 
-  console.log(data);
-</script> -->
-<script src="{{ url_for('static', filename='js/app.js') }}"></script>
-  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
+    <!-- <!-- </thead> -->
+    
+
+
+
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+
+    <script type="text/javascript">
+      var data = {{ all_athletes | tojson }};
+      console.log(data);
+
+      var tbody = d3.select("tbody");
+
+      data.forEach(function(player){
+
+        var row = tbody.append("tr");
+        Object.entries(player).forEach(function([key,value]){
+              console.log(key,value);
+
+              var cell = row.append("td");
+              cell.text(value);
+          });
+      });
+    </script>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
     <!-- <script src="app.js"></script> -->
-</body>
+  </body>
 </html>
