@@ -1,152 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     <title>Olympic Games 1976-2016</title>
-</head>
-<body>
-    <div>
-
+  </head>
+  <body>
+    
+      <div>
         <div id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index.html">Home</a>
-            <a href="map.html">Map</a>
-            <a href="gender.html">Gender Line Chart</a>
-            <a href="pie.html">Gender Pie Chart</a>
-            <a href="events.html">Events</a>
-            <a href="data.html">Data</a>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="index.html">Home</a>
+          <a href="map.html">Map</a>
+          <a href="gender.html">Gender Line Chart</a>
+          <a href="pie.html">Gender Pie Chart</a>
+          <a href="events.html">Events</a>
+          <a href="data.html">Data</a>
         </div>
         <div id="main">
-            <nav class="navbar navbar-dark" style="background-color: #e62e00;">
-                <button class="openbtn" onclick="openNav()">&#9776;</button>
-                <a class="navbar-brand" href="index.html">
-                    <img src="https://pbs.twimg.com/profile_images/573245641846988800/p1_68JCY.png" width="30"
-                        height="30" alt="" loading="lazy">
-                </a>
-            </nav>
-
-            <div>
-                <div class="hero-image">
-                    <div class="hero-text">
-                        <!--id="team">-->
-                        <h1>Team TECC: </h1>
-                        <p> Tom, Erika, Cris, Catherine </p>
-                        <p> We are an indie dev based in New Jersey, USA</p>
-                        <button type="button" class="btn btn-danger">
-                            <img src="/static/Images/ey_GitHub-Mark-Light-32px.png" alt="Github Icon Light" width="21" height="21">
-                            <a id="github-page" href="https://github.com/tnatoli29/Project-2.git" target="_blank">TECC on Github</a>
-                        </button>
-                        <!-- <button type="button" class="btn btn-danger">Contact Us</button> -->
-                    </div>
-                </div>
-
-            <!-- <h2 class="team">Welcome to Team TECC Dashboard(Tom, Erika, Cris, Cat)</h2> -->
-            <!-- <p>Welcome to Team TECC Dashboard(Tom, Erika, Cris, Cat)</p> -->
-            </div>
-
+          <nav class="navbar navbar-dark" style="background-color: #e62e00">
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="https://pbs.twimg.com/profile_images/573245641846988800/p1_68JCY.png"
+                width="30"
+                height="30"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+          </nav>
+           <h2 class="team">Welcome to Team TECC Dashboard(Tom, Erika, Cris, Cat)</h2>
         </div>
-            
-    </div>
+      </div>
 
-    <div class ="container">
-        <div class= "row">
-        <div class ="col-md-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
             <!-- ericas portion -->
-        </div>
+          </div>
         </div>
         <div class="row">
-         <div class ="col-md-6" >
+          <div class="col-md-6">
             <!-- cats portion -->
-            <div id="plot" class="cat "></div>
-            <select id="selDataset">
-                <option value="All">Olympics All Years</option>
-                <option value="1976">Olympics 1976</option>
-                <option value="1984">Olympics 1984</option>
-                <option value="1988">Olympics 1988</option>
-                <option value="1992">Olympics 1992</option>
-                <option value="1996">Olympics 1996</option>
-                <option value="2000">Olympics 2000</option>
-                <option value="2004">Olympics 2004</option>
-                <option value="2008">Olympics 2008</option>
-                <option value="2016">Olympics 2016</option>
-            </select>
-         </div> 
-        <div class ="col-md-6" >
-        <div id="tomplot" class="tom">
-                    <div id="pie"></div>
-                    <select id="tomselDataset" onchange="getData(this.value)">
-                        <option value="olympics1976">1976</option>
-                        <option value="olympics1984">1984</option>
-                        <option value="olympics1988">1988</option>
-                        <option value="olympics1992">1992</option>
-                        <option value="olympics1996">1996</option>
-                        <option value="olympics2000">2000</option>
-                        <option value="olympics2004">2004</option>
-                        <option value="olympics2008">2008</option>
-                        <option value="olympics2016">2016</option>
-                    </select>
-        </div>
-        </div> 
+            <div id="plot" class="cat"></div>
+        
+          </div>
+          <div class="col-md-6">
+            <div id="tomplot" class="tom">
+              <div id="pie"></div>
+            
+            </div>
+          </div>
         </div>
         <div class="row">
-            <div class ="col-md-12" >
-                <!-- cris portion -->
-            </div>
+          <div class="col-md-12">
+            <!-- cris portion -->
+          </div>
         </div>
+      </div>
+
+      <footer>
+        <p class="credit">Copyright © Team TECC 2020. All Rights Reserved.</p>
+      </footer>
     </div>
-
-        <!-- <div class="grid-item">
-            <div id="plot" class="cat "></div>
-            <select id="selDataset">
-                <option value="All">Olympics All Years</option>
-                <option value="1976">Olympics 1976</option>
-                <option value="1984">Olympics 1984</option>
-                <option value="1988">Olympics 1988</option>
-                <option value="1992">Olympics 1992</option>
-                <option value="1996">Olympics 1996</option>
-                <option value="2000">Olympics 2000</option>
-                <option value="2004">Olympics 2004</option>
-                <option value="2008">Olympics 2008</option>
-                <option value="2016">Olympics 2016</option>
-            </select>
-        </div> -->
-
-        <!-- <div class="grid-item">
-
-            <div id="tomplot" class="tom">
-                <div id="pie"></div>
-                <select id="tomselDataset" onchange="getData(this.value)">
-                    <option value="olympics1976">1976</option>
-                    <option value="olympics1984">1984</option>
-                    <option value="olympics1988">1988</option>
-                    <option value="olympics1992">1992</option>
-                    <option value="olympics1996">1996</option>
-                    <option value="olympics2000">2000</option>
-                    <option value="olympics2004">2004</option>
-                    <option value="olympics2008">2008</option>
-                    <option value="olympics2016">2016</option>
-                </select>
-            </div>
-           
-        </div> -->
-
-        <div class="grid-item c">
-            <a target="_blank" href="indexGender.html"><img src="Images/indexGenderDB.png"></a>
-        </div>
-    </div>
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
-    <!-- <script src="app.js"></script> -->
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
+    <script src="sidebar.js"></script>
+  </body>
 </html>

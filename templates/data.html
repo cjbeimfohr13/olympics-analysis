@@ -18,119 +18,149 @@
     <title>Olympic Games 1976-2016</title>
   </head>
   <body>
-    <div class="row">
-      <div class="col-md-10">
-        <aside class="filters">
-          <div class="panel panel-default">
-            <div class="panel-heading">Filter Search</div>
-            <div class="panel-body">
-              <form>
-                <label>Date</label>
-                <input
-                  id="datetime"
-                  type="text"
-                  aria-label="date"
-                  class="form-control"
-                  placeholder="1/11/2011"
-                />
-                <label>City</label>
-                <input
-                  id="city"
-                  type="text"
-                  aria-label="city"
-                  class="form-control"
-                  placeholder="enter city name"
-                />
-                <label>State</label>
-                <input
-                  id="state"
-                  type="text"
-                  aria-label="state"
-                  class="form-control"
-                  placeholder="enter state name"
-                />
-                <label>Country</label>
-                <input
-                  id="country"
-                  type="text"
-                  aria-label="country"
-                  class="form-control"
-                  placeholder="enter country name"
-                />
-                <label>Shape</label>
-                <input
-                  id="shape"
-                  type="text"
-                  aria-label="shape"
-                  class="form-control"
-                  placeholder="enter shape name"
-                />
-                <button id="filter-btn" type="button" class="btn btn-default">
-                  Filter Table
-                </button>
-              </form>
-            </div>
-          </div>
-        </aside>
-      </div>
-    </div>
+    <div>
+      <div>
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="index.html">Home</a>
+          <a href="map.html">Map</a>
+          <a href="gender.html">Gender Line Chart</a>
+          <a href="pie.html">Gender Pie Chart</a>
+          <a href="events.html">Events</a>
+          <a href="data.html">Data</a>
+        </div>
+        <div id="main">
+          <nav class="navbar navbar-dark" style="background-color: #e62e00">
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="https://pbs.twimg.com/profile_images/573245641846988800/p1_68JCY.png"
+                width="30"
+                height="30"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+          </nav>
 
-    <div class="container" style="text-align: center">
+          <div>
+            <div class="hero-image">
+              <div class="hero-text">
+                <!--id="team">-->
+                <h1>Team TECC:</h1>
+                <p>Tom, Erika, Cris, Catherine</p>
+                <p>We are an indie dev based in New Jersey, USA</p>
+                <button type="button" class="btn btn-danger">
+                  <img
+                    src="/static/Images/ey_GitHub-Mark-Light-32px.png"
+                    alt="Github Icon Light"
+                    width="21"
+                    height="21"
+                  />
+                  <a
+                    id="github-page"
+                    href="https://github.com/tnatoli29/Project-2.git"
+                    target="_blank"
+                    >TECC on Github</a
+                  >
+                </button>
+                <!-- <button type="button" class="btn btn-danger">Contact Us</button> -->
+              </div>
+            </div>
+
+            <!-- <h2 class="team">Welcome to Team TECC Dashboard(Tom, Erika, Cris, Cat)</h2> -->
+            <!-- <p>Welcome to Team TECC Dashboard(Tom, Erika, Cris, Cat)</p> -->
+          </div>
+        </div>
+      </div>
       <div class="row">
         <div class="col-md-10">
-          <hr />
-          <h1 class="dataHead">Data from the Olympics between 1976-2016.</h1>
-          <h2 class="dataSub">(excluding 1980 & 2012)</h2>
-          <hr />
-          <p>The table below is the data used throughout the other pages.</p>
-          <br />
-          <div id="table-area" class="">
-            <table id="data-table" class="table table-striped">
-              <thead>
-                <tr>
-                  <th class="table-head">medal</th>
-                  <th class="table-head">name</th>
-                  <th class="table-head">nationality</th>
-                  <th class="table-head">sex</th>
-                  <th class="table-head">sport</th>
-                  <th class="table-head">year</th>
-                  <!-- <th class="table-head">Comments</th> -->
-                </tr>
-              </thead>
-              <tbody></tbody>
-            </table>
+          <aside class="filters">
+            <div class="panel panel-default">
+              <div class="panel-heading">Filter Search</div>
+              <div class="panel-body">
+                <form>
+                  <label>Date</label>
+                  <input
+                    id="datetime"
+                    type="text"
+                    aria-label="date"
+                    class="form-control"
+                    placeholder="1/11/2011"
+                  />
+                  <label>City</label>
+                  <input
+                    id="city"
+                    type="text"
+                    aria-label="city"
+                    class="form-control"
+                    placeholder="enter city name"
+                  />
+                  <label>State</label>
+                  <input
+                    id="state"
+                    type="text"
+                    aria-label="state"
+                    class="form-control"
+                    placeholder="enter state name"
+                  />
+                  <label>Country</label>
+                  <input
+                    id="country"
+                    type="text"
+                    aria-label="country"
+                    class="form-control"
+                    placeholder="enter country name"
+                  />
+                  <label>Shape</label>
+                  <input
+                    id="shape"
+                    type="text"
+                    aria-label="shape"
+                    class="form-control"
+                    placeholder="enter shape name"
+                  />
+                  <button id="filter-btn" type="button" class="btn btn-default">
+                    Filter Table
+                  </button>
+                </form>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <div class="container" style="text-align: center">
+        <div class="row">
+          <div class="col-md-10">
+            <hr />
+            <h1 class="dataHead">Data from the Olympics between 1976-2016.</h1>
+            <h2 class="dataSub">(excluding 1980 & 2012)</h2>
+            <hr />
+            <p>The table below is the data used throughout the other pages.</p>
+            <br />
+            <div id="table-area" class="">
+              <table id="data-table" class="table table-striped">
+                <thead>
+                  <tr>
+                    <th class="table-head">medal</th>
+                    <th class="table-head">name</th>
+                    <th class="table-head">nationality</th>
+                    <th class="table-head">sex</th>
+                    <th class="table-head">sport</th>
+                    <th class="table-head">year</th>
+                    <!-- <th class="table-head">Comments</th> -->
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
     </div>
-   
-
-   
-  <!-- <div class="container" style="text-align:center;">
-    <div class="row">
-      <div class="col 12 divtable">
-        <hr>
-        <h1 class="dataHead">Data from the Olympics between 1976-2016. </h1>
-        <h2 class="dataSub"> (excluding 1980 & 2012) </h2>
-        <hr>
-        <p>The table below is the data used throughout the other pages.</p>
-        <br>
-        <table class="dataframe">
-          <thead>
-            <tr>
-              <th scope="col">#</th> -->
-         <!-- <th scope="col">id</th>
-              <th scope="col">year</th>
-              <th scope="col">sport</th>
-              <th scope="col">sex</th>
-              <th scope="col">nationality</th>
-              <th scope="col">medal</th>
-              <th scope="col">name</th>
-            </tr> -->
-    <!-- <!-- </thead> -->
-    
-
-
 
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
@@ -156,6 +186,6 @@
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
     <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
-    <!-- <script src="app.js"></script> -->
+    <script src="static/js/sidebar.js"></script>
   </body>
 </html>
