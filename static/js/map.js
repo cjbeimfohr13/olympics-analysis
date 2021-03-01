@@ -128,16 +128,16 @@ var flagIcon = L.Icon.extend({ // marker icons in Leaflet defined by L.Icon obje
 });
 
 // Create all flag icons from previous class and put them in each variable.
-var brazilFlag = new flagIcon({ iconUrl: '../static/Images/brazil-1524451_640.png' }),
-  ChinaFlag = new flagIcon({ iconUrl: '../static/Images/china-3573904_640.png' }),
-  GreeceFlag = new flagIcon({ iconUrl: '../static/Images/greece-2270738_640.png' }),
-  AustraliaFlag = new flagIcon({ iconUrl: '../static/Images/australia-3573886_640.png' }),
-  USAFlag_GA = new flagIcon({ iconUrl: '../static/Images/united-states-1524403_640.png' }),
-  SpainFlag = new flagIcon({ iconUrl: '../static/Images/spain-1524515_640.png' }),
-  SKFlag = new flagIcon({ iconUrl: '../static/Images/south-korea-flag-4555621_640.png' }),
-  USAFlag_LA = new flagIcon({ iconUrl: '../static/Images/united-states-1524403_640.png' }),
-  RussianFlag = new flagIcon({ iconUrl: '../static/Images/russia-1524479_640.png' }),
-  CanadaFlag = new flagIcon({ iconUrl: '../static/Images/canada-3573898_640.png' });
+var brazilFlag = new flagIcon({ iconUrl: '/static/Images/brazil-1524451_640.png' }),
+  ChinaFlag = new flagIcon({ iconUrl: '/static/Images/china-3573904_640.png' }),
+  GreeceFlag = new flagIcon({ iconUrl: '/static/Images/greece-2270738_640.png' }),
+  AustraliaFlag = new flagIcon({ iconUrl: '/static/Images/australia-3573886_640.png' }),
+  USAFlag_GA = new flagIcon({ iconUrl: '/static/Images/united-states-1524403_640.png' }),
+  SpainFlag = new flagIcon({ iconUrl: '/static/Images/spain-1524515_640.png' }),
+  SKFlag = new flagIcon({ iconUrl: '/static/Images/south-korea-flag-4555621_640.png' }),
+  USAFlag_LA = new flagIcon({ iconUrl: '/static/Images/united-states-1524403_640.png' }),
+  RussianFlag = new flagIcon({ iconUrl: '/static/Images/russia-1524479_640.png' }),
+  CanadaFlag = new flagIcon({ iconUrl: '/static/Images/canada-3573898_640.png' });
 
 // Check the location of the olympics
 console.log(placeOlympics[0].location); // Example: Brazil location 

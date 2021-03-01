@@ -34,20 +34,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def welcome():
-    """List all available api routes."""
-    return (
-        f"Available Routes:<br/>"
-        f"/names<br/>"
-        f"/sport<br/>"
-        f"/api/v1.0/athletes<br/>"
-        f"/data<br/>"
-        f"/piechart<br/>"
-        f"/events<br/>"
-        f"/male<br/>"
-        f"/female<br/>"
-        f"/map<br/>"
-    
-    )
+    return render_template("index.html")
 
 @app.route("/names")
 def names():
@@ -124,7 +111,7 @@ def data():
         all_athletes.append(olympic_dict)
 
     return render_template("data.html", all_athletes = all_athletes)
-@app.route('/piechart')
+@app.route('/pie')
 def piechart():
 
   return render_template("pie.html")
