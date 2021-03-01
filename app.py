@@ -5,6 +5,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 from sql_keys import username, password
 from flask import Flask, jsonify, render_template
+# from config import mapbox_access_token
 import jinja2
 
 # Project 2 Olympic Gold Medal USA Athlete Winners
@@ -44,6 +45,7 @@ def welcome():
         f"/events<br/>"
         f"/male<br/>"
         f"/female<br/>"
+        f"/map<br/>"
     
     )
 
@@ -151,10 +153,7 @@ def gender():
 @app.route('/map')
 def my_maps():
 
-  return render_template("map.html",
-
-        # Import api keys for the mapbox for loading.
-     mapbox_access_token=mapbox_access_token)
+  return render_template("map.html")
 
 
 
