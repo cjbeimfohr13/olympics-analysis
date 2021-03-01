@@ -36,14 +36,18 @@ def welcome():
     """List all available api routes."""
     return (
         f"Available Routes:<br/>"
-        f"/api/v1.0/names<br/>"
-        f"/api/v1.0/sport<br/>"
+        f"/names<br/>"
+        f"/sport<br/>"
         f"/api/v1.0/athletes<br/>"
-        f"/api/v1.0/data<br/>"
+        f"/data<br/>"
+        f"/piechart<br/>"
+        f"/events<br/>"
+        f"/male<br/>"
+        f"/female<br/>"
     
     )
 
-@app.route("/api/v1.0/names")
+@app.route("/names")
 def names():
     # Create our session (link) from Python to the DB
     session = Session(engine)
@@ -59,7 +63,7 @@ def names():
 
     return jsonify(all_names)
 
-@app.route("/api/v1.0/sport")
+@app.route("/sport")
 def sport():
         # Create our session (link) from Python to the DB
     session = Session(engine)
@@ -98,9 +102,9 @@ def athletes():
         olympic_dict["name"] = name
         all_athletes.append(olympic_dict)
 
-    return render_template(index.html, all_athletes=json.dumps(all_athletes))
+    return jsonify(all_athletes)
 
-@app.route("/api/v1.0/data", methods=['GET','POST'])
+@app.route("/data", methods=['GET','POST'])
 def data():
     session = Session(engine)
     results = session.query(Athlete.year, Athlete.sport, Athlete.sex, Athlete.nationality, Athlete.medal, Athlete.name).all()
@@ -117,11 +121,41 @@ def data():
         olympic_dict["name"] = name
         all_athletes.append(olympic_dict)
 
-    # return render_template(index.html, all_athletes=all_athletes)
-    # table= session.query(Athlete)
-
-    # print(table)
     return render_template("data.html", all_athletes = all_athletes)
+@app.route('/piechart')
+def piechart():
+
+  return render_template("pie.html")
+
+@app.route('/events')
+def events():
+
+  return render_template("events.html")
+
+@app.route('/male')
+def male():
+
+  return render_template("male.html")
+
+@app.route('/female')
+def female():
+
+  return render_template("female.html")
+
+@app.route('/gender')
+def gender():
+
+  return render_template("gender.html")
+
+
+@app.route('/map')
+def my_maps():
+
+  return render_template("map.html",
+
+        # Import api keys for the mapbox for loading.
+     mapbox_access_token=mapbox_access_token)
+
 
 
 if __name__ == '__main__':
