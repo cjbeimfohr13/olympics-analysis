@@ -15,25 +15,25 @@ for (var i = 0; i < sportsYear.length; i++){
           sportFrequency[currentSport] = 1;
         }
 }
-      var sportEvents = Object.keys(sportFrequency);
-      var sportEventCount= Object.values(sportFrequency);
-      console.log((sportEvents))
-      console.log(sportEventCount)
+var sportEvents = Object.keys(sportFrequency);
+var sportEventCount= Object.values(sportFrequency);
+    console.log((sportEvents))
+    console.log(sportEventCount)
 
-      var trace= {
-        x: sportEvents,
-        y: sportEventCount,
-        type: "bar",
-        marker: { color: "#193050" },
-      };
+var trace= {
+   x: sportEvents,
+   y: sportEventCount,
+   type: "bar",
+   marker: { color: "#193050" },
+   };
       
-    var data = [trace];
+var data = [trace];
 
-    layout = {
+layout = {
       title: "USA Olympic Gold Medals by Sport (1976-2016)",
     };
-    Plotly.newPlot("plot", data, layout);
+Plotly.newPlot("plot", data, layout);
     
 
-      return sportFrequency
+  return sportFrequency
 }
