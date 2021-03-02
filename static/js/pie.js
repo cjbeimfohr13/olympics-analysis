@@ -120,7 +120,7 @@ d3.json(link).then(function(data) {
    Plotly.restyle("pie", "values",[newdata]);
  }
  
- console.log(getData)
+
  init();
  
  });

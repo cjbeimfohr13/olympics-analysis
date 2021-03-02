@@ -34,38 +34,38 @@ button.on("click",function() {
     var yearInputValue= yearInputElement.property("value");
 
 
-    var filteredData = tableData
+    var filteredData = data
     if(medalInputValue!==""){
         console.log('filtering by date: ', medalInputValue)
-        filteredData = data.filter(data => data.medal === medalInputValue);
+        filteredData = data.filter(athlete => athlete.medal === medalInputValue);
     }
     if(nameInputValue!=="") {
         console.log('filtering by name: ', nameInputValue)
-        filteredData = filteredData.filter(ufo => ufo.city === cityInputValue);
+        filteredData = filteredData.filter(athlete => athlete.name === nameInputValue);
     }
     if(nationalityInputValue!=="") {
         console.log('filtering by nationality: ', nationalityInputValue)
-        filteredData = filteredData.filter(ufo => ufo.state === stateInputValue);
+        filteredData = filteredData.filter(athlete => athlete.nationality === nationalityInputValue);
     }
     if(sexInputValue!=="") {
         console.log('filtering by sex: ', sexInputValue)
-        filteredData = filteredData.filter(ufo => ufo.country === countryInputValue);
+        filteredData = filteredData.filter(athlete => athlete.sex === sexInputValue);
     }
     if(sportInputValue!=="") {
         console.log('filtering by sport: ', sportInputValue)
-        filteredData = filteredData.filter(ufo => ufo.shape === shapeInputValue);
+        filteredData = filteredData.filter(athlete => athlete.sport === sportInputValue);
     }
     if(yearInputValue!=="") {
       console.log('filtering by year: ', yearInputValue)
-      filteredData = filteredData.filter(ufo => ufo.shape === shapeInputValue);
+      filteredData = filteredData.filter(athlete => athlete.year === yearInputValue);
   }
 
 
-    filteredData.forEach(function(sighting){
+    filteredData.forEach(function(player){
     
 
         var row = tbody.append("tr");
-        Object.entries(sighting).forEach(function([key,value]){
+        Object.entries(player).forEach(function([key,value]){
 
         var cell = row.append("td");
         cell.text(value);
