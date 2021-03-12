@@ -43,14 +43,16 @@ def names():
 
     """Return a list of all athlete names"""
     # Query all athlete names
-    results = session.query(Athlete.name).all()
-
+    results = session.query(Athlete.year,func.count(Athlete.year)).group_by(Athlete.year).all()
+   
     session.close()
 
     # Convert list of tuples into normal list
-    all_names = list(np.ravel(results))
+    # all_names = list(np.ravel(results))
 
-    return jsonify(all_names)
+    # all_names = list(female_count)
+
+    return jsonify(results)
 
 @app.route("/sport")
 def sport():
