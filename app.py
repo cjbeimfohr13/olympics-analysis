@@ -36,14 +36,15 @@ app = Flask(__name__)
 def welcome():
     return render_template("index.html")
 
-@app.route("/names")
+@app.route("/counts")
 def names():
     # Create our session (link) from Python to the DB
     session = Session(engine)
 
     """Return a list of all athlete names"""
     # Query all athlete names
-    results = session.query(Athlete.year,func.count(Athlete.year)).group_by(Athlete.year).all()
+    results = session.query(Athlete.year, func.count(Athlete.year)).group_by(Athlete.year).all()
+    # female = session.query(Athlete.sex, func.count(Athlete.sex)).group_by(Athlete.sex).all()
    
     session.close()
 

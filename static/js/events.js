@@ -1,10 +1,7 @@
 function buildPlot(year){
-  // var data = {{ all_athletes | tojson }};
-        // console.log(data)
-//   var filteredYears = data      
-//  if (year) {
-//   filteredYears = data.filter((d) => d.year === year);   
-//  } 
+  var link = "/api/v1.0/athletes"
+  d3.json(link).then(function(data){
+
   var filteredYears = year ? data.filter((d) => d.year === year) : data
   var sportsYear = filteredYears.map(s => s.sport)
     sportFrequency={};
@@ -37,7 +34,7 @@ function buildPlot(year){
       
 
     return sportFrequency
-}
+  })}
 
 // Call updatePlotly() when a change takes place to the DOM
 d3.selectAll("#selDataset").on("change", updatePlotly);
@@ -47,18 +44,10 @@ function updatePlotly() {
   var dropdownMenu = d3.select("#selDataset");
   // Assign the value of the dropdown menu option to a variable
   var dataset = dropdownMenu.property("value");
-  // Initialize x and y arrays
-  // var x = [];
-  // var y = [];
-  // var title=[];
+  
   const result= buildPlot(dataset)
 
-  // Note the extra brackets around 'x' and 'y'
-  // Plotly.restyle("plot", "x", [x]);
-  // Plotly.restyle("plot", "y", [y]);
-  // Plotly.restyle("plot", "title", [title]);
+
+
 }
 
-init();
-
-buildPlot()
