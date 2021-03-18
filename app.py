@@ -122,12 +122,8 @@ def data():
         olympic_dict["name"] = name
         all_athletes.append(olympic_dict)
 
-    return jsonify(all_athletes)
-@app.route('/datatable')
-def piechart():
+    return render_template("data.html", all_athletes=all_athletes)
 
-  return render_template("data.html")
-  
 @app.route('/pie')
 def piechart():
 

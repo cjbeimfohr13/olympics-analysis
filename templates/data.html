@@ -14,9 +14,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
     <title>Olympic Games 1976-2016</title>
   </head>
+  <script>
+    var data = '{{ all_athletes| jsonify }}';
+  </script>
   <body>
     <div>
       <div>
@@ -29,7 +32,7 @@
           <a href="/gender">Gender Line Chart</a>
           <a href="/pie">Gender Pie Chart</a>
           <a href="/events">Events</a>
-          <a href="/datatable">Data</a>
+          <a href="/data">Data</a>
         </div>
         <div id="main">
           <nav class="navbar navbar-dark" style="background-color: #e62e00">
@@ -47,70 +50,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-2">
-          <aside class="filters">
-            <div class="panel panel-default">
-              <div class="panel-heading">Filter Search</div>
-              <div class="panel-body">
-                <form>
-                  <label>medal</label>
-                  <input
-                    id="medal"
-                    type="text"
-                    aria-label="medal"
-                    class="form-control"
-                    placeholder="enter medal"
-                  />
-                  <label>name</label>
-                  <input
-                    id="name"
-                    type="text"
-                    aria-label="name"
-                    class="form-control"
-                    placeholder="enter name"
-                  />
-                  <label>nationality</label>
-                  <input
-                    id="nationality"
-                    type="text"
-                    aria-label="nationality"
-                    class="form-control"
-                    placeholder="enter nationality"
-                  />
-                  <label>sex</label>
-                  <input
-                    id="sex"
-                    type="text"
-                    aria-label="sex"
-                    class="form-control"
-                    placeholder="enter gender"
-                  />
-                  <label>sport</label>
-                  <input
-                    id="sport"
-                    type="text"
-                    aria-label="sport"
-                    class="form-control"
-                    placeholder="enter sport"
-                  />
-                  <label>year</label>
-                  <input
-                    id="year"
-                    type="text"
-                    aria-label="year"
-                    class="form-control"
-                    placeholder="enter year"
-                  />
-                  <button id="filter-btn" type="button" class="btn btn-default">
-                    Filter Table
-                  </button>
-                </form>
-              </div>
-            </div>
-          </aside>
-        </div>
-
-        <div class="container" style="text-align: center">
+        <div class="contable" style="text-align: center">
           <div class="col-md-10">
             <hr />
             <h1 class="dataHead">Data from the Olympics between 1976-2016.</h1>
@@ -122,16 +62,30 @@
               <table id="data-table" class="table table-striped">
                 <thead>
                   <tr>
-                    <th class="table-head">medal</th>
-                    <th class="table-head">name</th>
-                    <th class="table-head">nationality</th>
-                    <th class="table-head">sex</th>
-                    <th class="table-head">sport</th>
-                    <th class="table-head">year</th>
+                    <th scope="col">medal</th>
+                    <th scope="col">name</th>
+                    <th scope="col">nationality</th>
+                    <th scope="col">sex</th>
+                    <th scope="col">sport</th>
+                    <th scope="col">year</th>
                     <!-- <th class="table-head">Comments</th> -->
                   </tr>
                 </thead>
-                <tbody></tbody>
+                {% for d in data %}
+                <tr>
+                  <th scope="row">{{d.medal}}</th>
+                  <td>{{d.name}}
+                  </td>
+                  <td>{{d.nationality}
+                  </td>
+                  <td>{{d.sex}}
+                  </td>
+                  <td>{{d.sport}}
+                  </td>
+                  <td>{{d.year}}
+                  </td>
+                  </tr>
+                  {% endfor %}
               </table>
             </div>
           </div>

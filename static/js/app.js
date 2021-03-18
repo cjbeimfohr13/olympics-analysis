@@ -1,4 +1,4 @@
-var data = "/data";
+var data = {{all_athletes | jsonify}};
 console.log(data);
 
 var tbody = d3.select("tbody");
@@ -34,31 +34,8 @@ button.on("click",function() {
     var yearInputValue= yearInputElement.property("value");
 
 
-    var filteredData = data
-    if(medalInputValue!==""){
-        console.log('filtering by date: ', medalInputValue)
-        filteredData = data.filter(athlete => athlete.medal === medalInputValue);
-    }
-    if(nameInputValue!=="") {
-        console.log('filtering by name: ', nameInputValue)
-        filteredData = filteredData.filter(athlete => athlete.name === nameInputValue);
-    }
-    if(nationalityInputValue!=="") {
-        console.log('filtering by nationality: ', nationalityInputValue)
-        filteredData = filteredData.filter(athlete => athlete.nationality === nationalityInputValue);
-    }
-    if(sexInputValue!=="") {
-        console.log('filtering by sex: ', sexInputValue)
-        filteredData = filteredData.filter(athlete => athlete.sex === sexInputValue);
-    }
-    if(sportInputValue!=="") {
-        console.log('filtering by sport: ', sportInputValue)
-        filteredData = filteredData.filter(athlete => athlete.sport === sportInputValue);
-    }
-    if(yearInputValue!=="") {
-      console.log('filtering by year: ', yearInputValue)
-      filteredData = filteredData.filter(athlete => athlete.year === yearInputValue);
-  }
+    var filteredData = data.filter(p => p.year=== yearInputValue);
+    console.log(filteredData);
 
 
     filteredData.forEach(function(player){
