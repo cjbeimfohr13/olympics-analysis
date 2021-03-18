@@ -47,7 +47,5 @@ function updatePlotly() {
   
   const result= buildPlot(dataset)
 
-
-
 }
 

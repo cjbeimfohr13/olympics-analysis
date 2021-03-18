@@ -30,7 +30,7 @@
           <a href="/gender">Gender Line Chart</a>
           <a href="/pie">Gender Pie Chart</a>
           <a href="/events">Events</a>
-          <a href="/data">Data</a>
+          <a href="/datatable">Data</a>
         </div>
         <div id="main">
           <nav class="navbar navbar-dark" style="background-color: #e62e00">
@@ -52,25 +52,51 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <!-- ericas portion -->
+            <div class="iframe">
+              <iframe class="responsive-iframe" src="/templates/map_index.html" > </iframe>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6">
             <!-- cats portion -->
-            <div id="plot" class="cat"></div>
+            <div id="plot" class="cat">
+              <select id="selDataset" onchange="updatePlotly(this.value)">
+                <!-- <option value="All">Olympics All Years</option> -->
+                <option value="1976">Olympics 1976</option>
+                <option value="1984">Olympics 1984</option>
+                <option value="1988">Olympics 1988</option>
+                <option value="1992">Olympics 1992</option>
+                <option value="1996">Olympics 1996</option>
+                <option value="2000">Olympics 2000</option>
+                <option value="2004">Olympics 2004</option>
+                <option value="2008">Olympics 2008</option>
+                <option value="2016">Olympics 2016</option>
+              </select>
+            </div>
         
           </div>
           <div class="col-md-6">
             <div id="tomplot" class="tom">
               <div id="pie"></div>
-            
+              <select id="tomselDataset">
+                <option value="olympics1976">1976</option>
+                <option value="olympics1984">1984</option>
+                <option value="olympics1988">1988</option>
+                <option value="olympics1992">1992</option>
+                <option value="olympics1996">1996</option>
+                <option value="olympics2000">2000</option>
+                <option value="olympics2004">2004</option>
+                <option value="olympics2008">2008</option>
+                <option value="olympics2016">2016</option>
+            </select>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <!-- cris portion -->
+            <h2 class="dataSub"> USA Men and Women Gold Medalist </h2>
+            <div class="chart"></div>
           </div>
         </div>
       </div>
@@ -79,7 +105,12 @@
         <p class="credit">Copyright © Team TECC 2020. All Rights Reserved.</p>
       </footer>
     </div>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
     <script src="/static/js/sidebar.js"></script>
+    <script src="/static/js/events.js"></script>
+    <script src="/static/js/pie.js"></script>
+    <script src="/static/js/gender.js"></script>
+    <script src="/static/js/map.js"></script>
   </body>
 </html>

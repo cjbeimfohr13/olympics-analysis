@@ -36,7 +36,7 @@ function makeResponsive() {
     // Import Data from the usaGoldMedals.csv file; this file represents USA Athletes Gold Medal winners
     //var maleCount = [56, 106, 49, 57, 59, 68, 51, 67, 40];
     //var femaleCount = [7, 62, 28, 32, 101, 62, 65, 58, 67];
-    var link = "/api/v1.0/athletes"
+    var link = "/counts"
     d3.json(link).then(function(usaData) {
   
       // Parse the data.

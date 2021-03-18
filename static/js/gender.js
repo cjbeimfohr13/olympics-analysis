@@ -18,8 +18,7 @@ var height = svgHeight - margin.top - margin.bottom;
 // append an SVG group that will hold our chart,
 // and shift the latter by left and top margins.
 // =================================
-var svg = d3
-  .select("body")
+var svg = d3.select("body")
   .append("svg")
   .attr("width", svgWidth)
   .attr("height", svgHeight);
@@ -27,17 +26,18 @@ var svg = d3
 var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
+// Create a function to parse date and time
+var parseTime = d3.timeParse("%Y");
 // Step 3:
 // Import data from the usaGoldMedals.csv file; this file represents USA Athletes Gold Medal winners
 // =================================
-var link = "Resources/usaGoldMedals.csv"
-d3.csv(link).then(function(usaData) {
+d3.json("/counts").then(function(usaData) {
   // Step 4: Parse the data
   // Format the data and convert to numerical and date values
   // =================================
   // Create a function to parse date and time
-  var parseTime = d3.timeParse("%Y");
-
+  // var parseTime = d3.timeParse("%Y");
+    console.log(usaData);
   // Format the data
   usaData.forEach(function(data) {
     data.year = parseTime(data.year);
@@ -51,8 +51,12 @@ d3.csv(link).then(function(usaData) {
     .domain(d3.extent(usaData, d => d.year))
     .range([0, width]);
 
-  var yLinearScale = d3.scaleLinear().range([height, 0]);
-
+  var yLinearScale1 = d3.scaleLinear()
+  .range([height, 0])
+  .domain([0,d3.max(usaData, d => d.male)])
+  var yLinearScale2 = d3.scaleLinear()
+  .range([height, 0])
+  .domain([0,d3.max(usaData, d => d.female)])
   // Step 6: Set up the y-axis domain
   // ==============================================
   // @NEW! determine the max y value
@@ -62,24 +66,23 @@ d3.csv(link).then(function(usaData) {
   // find the max of the female data
   var femaleMax = d3.max(usaData, d => d.female);
 
-  var yMax;
-  if (maleMax > femaleMax) {
-    yMax = maleMax;
-  }
-  else {
-    yMax = femaleMax;
-  }
+  // var yMax;
+  // if (maleMax > femaleMax) {
+  //   yMax = maleMax;
+  // }
+  // else {
+  //   yMax = femaleMax;
+  // }
 
-  // var yMax = maleMax > femaleMax ? maleMax : femaleMax;
-
-  // Use the yMax value to set the yLinearScale domain
-  yLinearScale.domain([0, yMax]);
 
 
   // Step 7: Create the axes
   // =================================
   var bottomAxis = d3.axisBottom(xTimeScale).tickFormat(d3.timeFormat("%Y"));
-  var leftAxis = d3.axisLeft(yLinearScale);
+  var leftAxis = d3.axisLeft(yLinearScale1);
+  var rightAxis = d3.axisRight(yLinearScale2);
+
+
 
   // Step 8: Append the axes to the chartGroup
   // ==============================================
@@ -88,8 +91,19 @@ d3.csv(link).then(function(usaData) {
     .attr("transform", `translate(0, ${height})`)
     .call(bottomAxis);
 
-  // Add y-axis
-  chartGroup.append("g").call(leftAxis);
+    // Add y1-axis to the left side of the display
+    chartGroup.append("g")
+    // Define the color of the axis text
+    .classed("blue", true)
+    .call(leftAxis);
+
+  // Add y2-axis to the right side of the display
+  chartGroup.append("g")
+    // Define the color of the axis text
+    .classed("red", true)
+    .attr("transform", `translate(${width}, 0)`)
+    .call(rightAxis);
+
 
   // Step 9: Set up two line generators and append two SVG paths
   // ==============================================
@@ -97,42 +111,41 @@ d3.csv(link).then(function(usaData) {
   // Line generator for male data
   var line1 = d3.line()
     .x(d => xTimeScale(d.year))
-    .y(d => yLinearScale(d.male));
+    .y(d => yLinearScale1(d.male));
 
   // Line generator for female data
   var line2 = d3.line()
     .x(d => xTimeScale(d.year))
-    .y(d => yLinearScale(d.female));
+    .y(d => yLinearScale2(d.female));
 
   // Append a path for line1
-  chartGroup
-    .append("path")
-    .attr("d", line1(usaData))
+  chartGroup.append("path")
+    .data([usaData])
+    .attr("d", line1)
     .classed("line blue", true);
 
   // Append a path for line2
-  chartGroup
+  chartGroup.append("path")
     .data([usaData])
-    .append("path")
     .attr("d", line2)
     .classed("line red", true);
 
   // append circles to data points
   var circlesGroup = chartGroup.selectAll("circle")
-    .data(usaData)
+    .data([usaData])
     .enter()
     .append("circle")
     .attr("cx", (d, i) => xTimeScale(i))
-    .attr("cy", d => yLinearScale(d.male))
+    .attr("cy", d => yLinearScale1(d.male))
     .attr("r", "5")
     .attr("fill", "blue");
 
   var circlesGroup = chartGroup.selectAll("circle")
-    .data(usaData)
+    .data([usaData])
     .enter()
     .append("circle")
     .attr("cx", (d, i) => xTimeScale(i))
-    .attr("cy", d => yLinearScale(d.female))
+    .attr("cy", d => yLinearScale2(d.female))
     .attr("r", "5")
     .attr("fill", "red");  
 

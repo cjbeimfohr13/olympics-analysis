@@ -1,4 +1,4 @@
-var data = {{ all_athletes | tojson }};
+var data = "/data";
 console.log(data);
 
 var tbody = d3.select("tbody");
