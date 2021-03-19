@@ -5,6 +5,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func, desc , asc
 from sql_keys import username, password
 from flask import Flask, jsonify, render_template
+from config import mapbox_access_token
 # from config import mapbox_access_token
 import jinja2
 
@@ -153,7 +154,7 @@ def gender():
 @app.route('/map')
 def my_maps():
 
-  return render_template("map.html", mapbox_access_token = "pk.eyJ1IjoiY2piZWltZm9ocjEzIiwiYSI6ImNrbHI3ZmNwMzFrM3Iydm1waGhud2NpNHQifQ.bfvheE7dbulsHFuzN4kskw")
+  return render_template("map.html", mapbox_access_token = mapbox_access_token)
 
 
 

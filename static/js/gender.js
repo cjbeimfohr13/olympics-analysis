@@ -26,18 +26,18 @@ var svg = d3.select("body")
 var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-// Create a function to parse date and time
-var parseTime = d3.timeParse("%Y");
+
+
 // Step 3:
-// Import data from the usaGoldMedals.csv file; this file represents USA Athletes Gold Medal winners
+// Import data from flask this file represents USA Athletes Gold Medal winners
 // =================================
 d3.json("/counts").then(function(usaData) {
   // Step 4: Parse the data
   // Format the data and convert to numerical and date values
   // =================================
   // Create a function to parse date and time
-  // var parseTime = d3.timeParse("%Y");
-    console.log(usaData);
+  var parseTime = d3.timeParse("%Y");
+    
   // Format the data
   usaData.forEach(function(data) {
     data.year = parseTime(data.year);
@@ -52,28 +52,12 @@ d3.json("/counts").then(function(usaData) {
     .range([0, width]);
 
   var yLinearScale1 = d3.scaleLinear()
-  .range([height, 0])
-  .domain([0,d3.max(usaData, d => d.male)])
+    .range([height, 0])
+    .domain([0,d3.max(usaData, d => d.male)])
   var yLinearScale2 = d3.scaleLinear()
-  .range([height, 0])
-  .domain([0,d3.max(usaData, d => d.female)])
-  // Step 6: Set up the y-axis domain
-  // ==============================================
-  // @NEW! determine the max y value
-  // find the max of the male data
-  var maleMax = d3.max(usaData, d => d.male);
-
-  // find the max of the female data
-  var femaleMax = d3.max(usaData, d => d.female);
-
-  // var yMax;
-  // if (maleMax > femaleMax) {
-  //   yMax = maleMax;
-  // }
-  // else {
-  //   yMax = femaleMax;
-  // }
-
+    .range([height, 0])
+    .domain([0,d3.max(usaData, d => d.female)])
+  
 
 
   // Step 7: Create the axes
@@ -92,18 +76,10 @@ d3.json("/counts").then(function(usaData) {
     .call(bottomAxis);
 
     // Add y1-axis to the left side of the display
-    chartGroup.append("g")
-    // Define the color of the axis text
-    .classed("blue", true)
-    .call(leftAxis);
+  chartGroup.append("g").call(leftAxis);
 
   // Add y2-axis to the right side of the display
-  chartGroup.append("g")
-    // Define the color of the axis text
-    .classed("red", true)
-    .attr("transform", `translate(${width}, 0)`)
-    .call(rightAxis);
-
+  chartGroup.append("g").attr("transform", `translate(${width}, 0)`).call(rightAxis);
 
   // Step 9: Set up two line generators and append two SVG paths
   // ==============================================
@@ -187,7 +163,6 @@ d3.json("/counts").then(function(usaData) {
     .attr("font-size", "16px")
     .attr("fill", "red")
     .text("USA Female Gold Medal Athletes");
-  
 }).catch(function(error) {
   console.log(error);
 });
