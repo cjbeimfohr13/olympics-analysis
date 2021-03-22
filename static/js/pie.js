@@ -68,10 +68,10 @@ d3.json(link).then(function(data) {
       height: 600,
       width: 800
    };
-    }
+    
  
   Plotly.newPlot("pie", data, layout);
- 
+}
  d3.selectAll("#tomselDataset").on("change", getData);
  
  // Function called by DOM changes
@@ -114,11 +114,11 @@ d3.json(link).then(function(data) {
        data = olympics2016;
    }
    // Call function to update the chart
-   updatePlotly(data);
+   getData(data);
  
  // Update the restyled plot's values
  
-    Plotly.restyle("pie", "values",[newdata]);
+    Plotly.restyle("pie", "values",[data]);
 }
 init();
 });

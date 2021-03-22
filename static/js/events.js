@@ -1,7 +1,7 @@
 function buildPlot(year){
   var link = "/api/v1.0/athletes"
   d3.json(link).then(function(data){
-
+    console.log(data);
   var filteredYears = year ? data.filter((d) => d.year === year) : data
   var sportsYear = filteredYears.map(s => s.sport)
     sportFrequency={};
@@ -48,4 +48,4 @@ function updatePlotly() {
   const result= buildPlot(dataset)
 
 }
-
+buildPlot(1980)
