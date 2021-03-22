@@ -12,6 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <!-- Leaflet CSS -->
@@ -82,9 +83,9 @@
         
           </div>
           <div class="col-md-6">
-            <div id="tomplot" class="tom">
+            
               <div id="pie"></div>
-              <select id="tomselDataset">
+              <select id="selDataset" onchange="getData(this.value)">
                 <option value="olympics1976">1976</option>
                 <option value="olympics1984">1984</option>
                 <option value="olympics1988">1988</option>
@@ -95,7 +96,7 @@
                 <option value="olympics2008">2008</option>
                 <option value="olympics2016">2016</option>
             </select>
-            </div>
+          
           </div>
         </div>
         <div class="row">
@@ -106,7 +107,7 @@
         </div>
       </div>
     </div>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+    
     <!-- Leaflet JavaScript -->
     <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
 

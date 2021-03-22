@@ -4,6 +4,7 @@ function buildPlot(year){
     console.log(data);
   var filteredYears = year ? data.filter((d) => d.year === year) : data
   var sportsYear = filteredYears.map(s => s.sport)
+    console.log(sportsYear);
     sportFrequency={};
   for (var i = 0; i < sportsYear.length; i++){
     var currentSport = sportsYear[i];
@@ -34,7 +35,7 @@ function buildPlot(year){
       
 
     return sportFrequency
-  })}
+  })
 
 // Call updatePlotly() when a change takes place to the DOM
 d3.selectAll("#selDataset").on("change", updatePlotly);
@@ -48,4 +49,5 @@ function updatePlotly() {
   const result= buildPlot(dataset)
 
 }
-buildPlot(1980)
+
+}

@@ -64,62 +64,59 @@ d3.json(link).then(function(data) {
  
    }];
  
-     var layout = {
-      height: 600,
-      width: 800
-   };
+//      var layout = {
+//       height: 600,
+//       width: 800
+//    };
     
  
-  Plotly.newPlot("pie", data, layout);
+  Plotly.newPlot("pie", data);
 }
- d3.selectAll("#tomselDataset").on("change", getData);
+ d3.selectAll("#selDataset").on("change", getData);
  
  // Function called by DOM changes
  function getData() {
- 
-     // On change to the DOM, call getData()
- 
-   var dropdownMenu = d3.select("#tomselDataset");
-   var dataNumbers = dropdownMenu.property("value");
+   // On change to the DOM, call getData()
+   var dropdownMenu = d3.select("#selDataset");
+   var dataset = dropdownMenu.property("value");
    // Assign the value of the dropdown menu option to a variable
  
    // Initialize an empty array for the country's data
    var data = [];
  
-   if (dataNumbers == 'olympics1976') {
+   if (dataset == 'olympics1976') {
        data = olympics1976;
    }
-   else if (dataNumbers == 'olympics1984') {
+   else if (dataset == 'olympics1984') {
        data = olympics1984;
    }
-   else if (dataNumbers == 'olympics1988') {
+   else if (dataset == 'olympics1988') {
        data = olympics1988;
    }
-   else if (dataNumbers == 'olympics1992') {
+   else if (dataset == 'olympics1992') {
        data = olympics1992;
    }
-   else if (dataNumbers == 'olympics1996') {
+   else if (dataset == 'olympics1996') {
        data = olympics1996;
    }
-   else if (dataNumbers == 'olympics2000') {
+   else if (dataset == 'olympics2000') {
        data = olympics2000;
    }
-   else if (dataNumbers == 'olympics2004') {
+   else if (dataset == 'olympics2004') {
        data = olympics2004;
    }
-   else if (dataNumbers == 'olympics2008') {
+   else if (dataset == 'olympics2008') {
        data = olympics2008;
    }
-   else if (dataNumbers == 'olympics2016') {
+   else if (dataset == 'olympics2016') {
        data = olympics2016;
    }
-   // Call function to update the chart
-   getData(data);
- 
- // Update the restyled plot's values
- 
-    Plotly.restyle("pie", "values",[data]);
-}
+   updatePlotly(data);
+ }
+function updatePlotly(newdata) {
+    Plotly.restyle("pie", "values", [newdata]);
+  }
+  
 init();
 });
  

@@ -1,7 +1,7 @@
 // Step 1: Set up our chart
 //=================================
 
-var svgWidth = 900;
+var svgWidth = 1500;
 var svgHeight = 500;
 
 var margin = {
