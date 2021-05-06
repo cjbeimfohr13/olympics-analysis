@@ -1,9 +1,3 @@
-// Create the map object 
-var olympicMap = L.map("map", {
-  center: [41.8719, 12.5674], // Used Italy as a center of the world map
-  zoom: 3,
-  layers: [streetMap, satelliteMap]
-});
 // Add tile layer to the map
 var streetMap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
       attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
@@ -21,6 +15,13 @@ var streetMap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}
     id: "mapbox/satellite-streets-v9",
     accessToken: API_KEY
   });
+
+// Create the map object 
+var olympicMap = L.map("map", {
+  center: [41.8719, 12.5674], // Used Italy as a center of the world map
+  zoom: 3,
+  layers: [streetMap, satelliteMap]
+});
 
 
 // Define a baseMaps object to hold our base layers

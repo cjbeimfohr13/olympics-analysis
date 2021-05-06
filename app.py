@@ -1,10 +1,11 @@
+import flask
 import numpy as np
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func, desc , asc
 from sql_keys import username, password
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify, render_template, request, url_for,redirect, send_from_directory
 from config import mapbox_access_token
 # from config import mapbox_access_token
 import jinja2
@@ -27,7 +28,7 @@ Athlete = Base.classes.athlete
 #################################################
 # Flask Setup
 #################################################
-app = Flask(__name__)
+app = flask.Flask(__name__, static_url_path=('/static'))
 
 #################################################
 # Flask Routes
@@ -154,7 +155,9 @@ def gender():
 @app.route('/map')
 def my_maps():
 
-  return render_template("map.html", mapbox_access_token = mapbox_access_token)
+  return render_template("map_index.html", 
+  
+        mapbox_access_token = mapbox_access_token)
 
 
 
