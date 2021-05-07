@@ -19,6 +19,12 @@
     <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
     <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
     <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+    <script type="text/javascript">
+    function updatePlotly(){
+      var years = document.getElementById("#selDataset")
+      var dataset = years.property("value")
+    }
+    </script>
   </head>
   <body>
     <div>
@@ -56,19 +62,20 @@
     </div>
 
     <!-- <div id="plot"></div> -->
-    <select id="selDataset" onchange="updatePlotly(this.value)">
-      <option value="1976">Olympics 1976</option>
-      <option value="1984">Olympics 1984</option>
-      <option value="1988">Olympics 1988</option>
-      <option value="1992">Olympics 1992</option>
-      <option value="1996">Olympics 1996</option>
-      <option value="2000">Olympics 2000</option>
-      <option value="2004">Olympics 2004</option>
-      <option value="2008">Olympics 2008</option>
-      <option value="2016">Olympics 2016</option>
+    <select id="selDataset" class="cat" onchange="">
+      <option value="1976">1976</option>
+      <option value="1984">1984</option>
+      <option value="1988">1988</option>
+      <option value="1992">1992</option>
+      <option value="1996">1996</option>
+      <option value="2000">2000</option>
+      <option value="2004">2004</option>
+      <option value="2008">2008</option>
+      <option value="2016">2016</option>
     </select>
 
     <div id="plot"></div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>

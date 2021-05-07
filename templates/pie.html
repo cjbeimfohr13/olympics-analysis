@@ -15,6 +15,12 @@
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+    <script type="text/javascript">
+      function getData(){
+        var years = document.getElementById("#selDataset")
+        var dataset = years.property("value")
+      }
+      </script>
     <title>Olympic Games 1976-2016</title>
   </head>
   <body>
@@ -50,7 +56,7 @@
 
     <h2 class="dataSub">USA Men and Women Gold Medalist</h2>
     <div id="pie">
-    <select id="selDataset" onchange="getData(this.value)">
+    <select id="selDataset" class="tom" onchange="">
       <option value="olympics1976">1976</option>
       <option value="olympics1984">1984</option>
       <option value="olympics1988">1988</option>

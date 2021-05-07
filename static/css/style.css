@@ -163,5 +163,11 @@ li{
  margin-left: 50px;
 }
 #map{
-  height:180px;
+  height:280px;
+}
+#tab{
+  padding-left: 150px;
+}
+#plot{
+  height: 500px;
 }
