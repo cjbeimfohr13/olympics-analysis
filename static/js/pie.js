@@ -4,6 +4,7 @@ function buildPie(year) {
       console.log(data);
       var yearsFiltered= data.filter((d)=>d.year==year);
       var genderYear= yearsFiltered.map((g)=>g.sex);
+      console.log(genderYear);
       genderFrequency ={};
       for (var i = 0; i < genderYear.length; i++) {
           var currentGender = genderYear[i];
