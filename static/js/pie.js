@@ -28,12 +28,15 @@ function buildPie(year) {
           marker: {
             colors: ["#193050", "#e62e00"],
           },
-          textinfo: "label+percent+value",
+          textinfo: "genderLabel+percent+value",
           type: "pie",
         },
       ];
+      layout = {
+        title: "USA Olympic Gold Medals by Sex (1976-2016)",
+      };
   
-      Plotly.newPlot("pie", data);
+      Plotly.newPlot("pie", data, layout);
     });
   }
   d3.selectAll("#tomDataset").on("change", getData);
