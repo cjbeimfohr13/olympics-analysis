@@ -5,7 +5,7 @@ We continued our ETL (https://github.com/tnatoli29/mini-project-olypmics-2016) o
 Visualizations included:
 * pie-chart displaying male and female athletes per year including the percentage of each per year.
 * multi-line chart to display both male and female athletes per year.
-* bar-chart showing the number of gold medals obtain by each sport in the USA.
+* bar-chart showing the number of gold medals obtain by each sport in the USA per year.
 * satelite and street map displaying the world and olympic game locations for their given year.
 
 
