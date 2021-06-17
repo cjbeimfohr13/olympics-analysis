@@ -9,6 +9,8 @@ Visualizations included:
 * bar-chart showing the number of gold medals obtain by each sport in the USA per year.
 * satelite and street map displaying the world and olympic game locations for their given year.
 
+![image](https://user-images.githubusercontent.com/68441397/122427370-0ead1900-cf5f-11eb-879c-d4aa9e74051a.png)
+
 
 Link to Heroku app ()
 
