@@ -1,7 +1,7 @@
 # olympics-analysis
 Continuation of inital project 2. The project is a continuation an ETL (https://github.com/tnatoli29/mini-project-olypmics-2016) on USA Olympic Gold Medal wins from 1976-2016. 
 
-Full Stack Dashboard web application utilizing Python, JavaScript, Tableau, HTML/CSS/Bootstrap, D3, Plotly, Leaflet, Pandas.
+Full Stack Dashboard web application utilizing Python, JavaScript, Tableau, HTML/CSS/Bootstrap, D3, Plotly, Leaflet, Flask, PostgreSQL, Pandas.
 
 Visualizations included:
 * pie-chart displaying male and female athletes per year including the percentage of each per year.
