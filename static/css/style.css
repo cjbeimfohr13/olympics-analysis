@@ -175,3 +175,7 @@ li{
   margin-left: auto;
   margin-right: auto;
 }
+/* svg{
+  display: flex;
+  justify-content: center;
+} */
