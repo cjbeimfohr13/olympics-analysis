@@ -12,6 +12,4 @@ Visualizations included:
 ![image](https://user-images.githubusercontent.com/68441397/122427370-0ead1900-cf5f-11eb-879c-d4aa9e74051a.png)
 
 
-Link to Heroku app ()
-
 
